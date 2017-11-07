@@ -1,8 +1,14 @@
 # CSS Externo #
 
-v1.0.0
+Versão 1.0.0
+___
 
-### Humanas ###
+### Áreas ###
 
-* Assets Humanas
+* Humanas
+* Exatas
+* Biologicas 
+* Letras
+* Sociais
+* Agrarias 
 
