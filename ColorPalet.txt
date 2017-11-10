@@ -1,0 +1,70 @@
+//Paleta de Cores 
+
+
+Humanas {
+#ad393a
+#ea5c63
+#34495e
+#7892a3
+#333
+#e27a3f
+#efc94c
+}
+
+
+Exatas {
+#096897
+#2c3e50
+#cce8f6
+#3997d3
+#333
+#fefefe
+#00c7b1
+}
+
+
+Biologicas {
+#00bea6
+#84ded2
+#65a095
+#cff3ee
+#333
+#83d85a
+#c6e729
+#9ad4cc
+}
+
+
+Sociais {
+white
+#00bea6
+#7a6095
+#d6cfde
+#333
+#cf8e44
+#f8b134
+#a38bce
+}
+
+
+Letras {
+#d65174
+#f49382
+#3b2b70
+#9c87b2
+#333
+#f7ae22
+white
+}
+
+
+Agrarias {
+#6fbb34
+#70db89
+#4f7c57
+#eee595
+#333
+#1ea294
+#fffcd8
+white
+}
