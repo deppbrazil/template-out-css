@@ -1,4 +1,4 @@
-//GRAFISMO HUMANAS v_2.0.0//
+//GRAFISMO EXATAS v_2.0.0//
 
 //Variaveis de cores//
 $cor1:#096897;
@@ -17,11 +17,11 @@ $cor7:#00c7b1;
 }
 //seta para cima color//
 .bt-anterior {
-    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/seta-para-cima-humanas.png');
+    background-image: url('assets-dist/assets-exatas/seta-para-cima.png');
 }
 //seta para baixo color//
 .bt-proximo {
-    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/seta-para-baixo-humanas.png');
+    background-image: url('assets-dist/assets-exatas/seta-para-baixo.png');
 }
 //tour//
 .div-tour {
@@ -52,8 +52,8 @@ $cor7:#00c7b1;
 //Card | 1-Capa//
 //barra feedback//
 .x_feedback {
-    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/seta-branco.png'), -webkit-linear-gradient(270deg, $cor1, $cor1);
-    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/seta-branco.png'), linear-gradient(180deg, $cor1, $cor1);
+    background-image: url('assets-dist/assets-exatas/seta-branco.png'), -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: url('assets-dist/assets-exatas/seta-branco.png'), linear-gradient(180deg, $cor1, $cor1);
 }
 .feedback_nav {
     background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
@@ -409,8 +409,8 @@ $cor7:#00c7b1;
 //Card | 27-Link//
 //caixa link//
 .link_div.link_right {
-    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/mundo.png'), -webkit-linear-gradient(270deg, $cor1, $cor1);
-    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/mundo.png'), linear-gradient(180deg, $cor1, $cor1);
+    background-image: url('assets-dist/assets-exatas/mundo.png'), -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: url('assets-dist/assets-exatas/mundo.png'), linear-gradient(180deg, $cor1, $cor1);
 }
 //tx link//
 .tx_link {
@@ -574,7 +574,7 @@ $cor7:#00c7b1;
 
 //Card | 39-Citacao//
 .citacao {
-  background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/aspas1-humanas.png'), url('https://dedmd.com.br/projetos/webflow/css/assets/aspas2-humanas.png');
+  background-image: url('assets-dist/assets-exatas/aspas1.png'), url('assets-dist/assets-exatas/aspas2.png');
 }
 //Card | 39-Citacao//
 
@@ -659,7 +659,7 @@ $cor7:#00c7b1;
 }
 //Itens da lista//
 .item_da_lista {
-  background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/setinha.png');
+  background-image: url('assets-dist/assets-exatas/setinha.png');
 }
 //Tab//
 .tab_normal {
@@ -692,8 +692,8 @@ $cor7:#00c7b1;
   background-image: linear-gradient(180deg, $cor2, $cor2);
 }
 .titulo-saiba-mais {
-    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/fechar.png'), -webkit-linear-gradient(270deg, $cor3, $cor3);
-    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/fechar.png'), linear-gradient(180deg, $cor3, $cor3);
+    background-image: url('assets-dist/assets-exatas/fechar.png'), -webkit-linear-gradient(270deg, $cor3, $cor3);
+    background-image: url('assets-dist/assets-exatas/fechar.png'), linear-gradient(180deg, $cor3, $cor3);
 }
 //Botao clique apareca//
 .botao.clica-apareca-obj {  

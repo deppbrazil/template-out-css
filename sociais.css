@@ -2,10 +2,10 @@
   color: #00bea6; }
 
 .bt-anterior {
-  background-image: url("https://dedmd.com.br/projetos/webflow/css/assets/seta-para-cima-humanas.png"); }
+  background-image: url("assets-dist/assets-sociais/seta-para-cima.png"); }
 
 .bt-proximo {
-  background-image: url("https://dedmd.com.br/projetos/webflow/css/assets/seta-para-baixo-humanas.png"); }
+  background-image: url("assets-dist/assets-sociais/seta-para-baixo.png"); }
 
 .div-tour {
   background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
@@ -27,8 +27,8 @@
   background-image: linear-gradient(180deg, #00bea6, #00bea6); }
 
 .x_feedback {
-  background-image: url("https://dedmd.com.br/projetos/webflow/css/assets/seta-branco.png"), -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: url("https://dedmd.com.br/projetos/webflow/css/assets/seta-branco.png"), linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: url("assets-dist/assets-sociais/seta-branco.png"), -webkit-linear-gradient(270deg, #00bea6, #00bea6);
+  background-image: url("assets-dist/assets-sociais/seta-branco.png"), linear-gradient(180deg, #00bea6, #00bea6); }
 
 .feedback_nav {
   background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
@@ -263,8 +263,8 @@
   background-image: linear-gradient(180deg, #83d85a, #83d85a); }
 
 .link_div.link_right {
-  background-image: url("https://dedmd.com.br/projetos/webflow/css/assets/mundo.png"), -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: url("https://dedmd.com.br/projetos/webflow/css/assets/mundo.png"), linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: url("assets-dist/assets-sociais/mundo.png"), -webkit-linear-gradient(270deg, #00bea6, #00bea6);
+  background-image: url("assets-dist/assets-sociais/mundo.png"), linear-gradient(180deg, #00bea6, #00bea6); }
 
 .tx_link {
   color: #ffcd0a; }
@@ -377,7 +377,7 @@
   background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .citacao {
-  background-image: url("https://dedmd.com.br/projetos/webflow/css/assets/aspas1-humanas.png"), url("https://dedmd.com.br/projetos/webflow/css/assets/aspas2-humanas.png"); }
+  background-image: url("assets-dist/assets-sociais/aspas1.png"), url("assets-dist/assets-sociais/aspas2.png"); }
 
 .tx-span1_ts {
   color: #00bea6; }
@@ -449,7 +449,7 @@
   background-image: linear-gradient(180deg, #83d85a, #83d85a); }
 
 .item_da_lista {
-  background-image: url("https://dedmd.com.br/projetos/webflow/css/assets/setinha.png"); }
+  background-image: url("assets-dist/assets-sociais/setinha.png"); }
 
 .tab_normal {
   background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
@@ -480,8 +480,8 @@
   background-image: linear-gradient(180deg, #83d85a, #83d85a); }
 
 .titulo-saiba-mais {
-  background-image: url("https://dedmd.com.br/projetos/webflow/css/assets/fechar.png"), -webkit-linear-gradient(270deg, #7a6095, #7a6095);
-  background-image: url("https://dedmd.com.br/projetos/webflow/css/assets/fechar.png"), linear-gradient(180deg, #7a6095, #7a6095); }
+  background-image: url("assets-dist/assets-sociais/fechar.png"), -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: url("assets-dist/assets-sociais/fechar.png"), linear-gradient(180deg, #7a6095, #7a6095); }
 
 .botao.clica-apareca-obj {
   background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
