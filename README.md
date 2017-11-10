@@ -1,6 +1,6 @@
-# CSS Externo #
+# CSS Externo com SASS #
 
-Versão 1.0.0
+Versão 2.0.0
 ___
 
 ### Áreas ###
@@ -11,4 +11,8 @@ ___
 * Letras
 * Sociais
 * Agrarias 
+
+
+
+
 

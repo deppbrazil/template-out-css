@@ -1,0 +1,845 @@
+//GRAFISMO HUMANAS v_2.0.0//
+
+//Variaveis de cores
+$cor1:#ad393a;
+$cor2:#ea5c63;
+$cor3:#34495e;
+$cor4:#7892a3;
+$cor5:#333;;
+$cor6:#e27a3f;
+$cor7:#efc94c;
+//Variaveis de cores
+
+//Public Class//
+//titulo//
+.titulo-padrao {
+    color: $cor1;
+}
+//seta para cima color//
+.bt-anterior {
+    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/seta-para-cima-humanas.png');
+}
+//seta para baixo color//
+.bt-proximo {
+    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/seta-para-baixo-humanas.png');
+}
+//tour//
+.div-tour {
+    background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+//pular tour//
+.bt-tour {
+    background-color: $cor2;
+}
+.bt-tour:hover {
+    background-color: $cor1;
+    color: $cor2;
+}
+.bt-tour:active {
+    background-color: $cor1;
+    color: $cor2;
+}
+//barra slider//
+.slide-nav {
+    background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+//Public Class//
+
+
+//CARDS//
+//Card | 1-Capa//
+//barra feedback//
+.x_feedback {
+    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/seta-branco.png'), -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/seta-branco.png'), linear-gradient(180deg, $cor1, $cor1);
+}
+.feedback_nav {
+    background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+//unidade//
+.capa-unidade {
+    background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+//seção//
+.capa-se-o {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//titulo tela iPhone//
+.tx1-tela-dentro-iphone {
+    color: $cor1;
+}
+//Card | 1-Capa//
+
+
+//Card | 2-Capas internas//
+//nao precisa//
+//Card | 2-Capas internas//
+
+
+//Card | 3-Texto imagem//
+//nao precisa//
+//Card | 3-Texto imagem//
+
+
+//Card | 4-Imagem texto//
+//nao precisa//
+//Card | 4-Imagem texto//
+
+
+//Card | 5-Texto box//
+.box-red_45-d {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//Card | 5-Texto box//
+
+//Card | 6-Box-Texto//
+.box-red_45-e {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//Card | 6-Box-Texto//
+
+//Card | 7-Texto-BlocosV//
+.box-filho_45-d {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//Card | 7-Texto-BlocosV//
+
+//Card | 8-Texto-BlocosH//
+.div-filho_textoblocosh {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//Card | 8-Texto-BlocosH//
+
+//Card | 9-Texto centralizado//
+//nao precisa//
+//Card | 9-Texto centralizado//
+
+//Card | 10-Texto esquerda//
+//nao precisa//
+//Card | 10-Texto esquerda//
+
+//Card | 11-Texto direita//
+//nao precisa//
+//Card | 11-Texto direita//
+
+//Card | 12-Texto 2 colunas//
+//nao precisa//
+//Card | 12-Texto 2 colunas//
+
+//Card | 13-Texto acima imagem//
+//nao precisa//
+//Card | 13-Texto acima imagem//
+
+//Card | 14-Imagem acima texto//
+//nao precisa//
+//Card | 14-Imagem acima texto//
+
+//Card | 15-Galeria imagem//
+//nao precisa//
+//Card | 15-Galeria imagem//
+
+//Card | 16-Galeria texto imagem//
+//nao precisa//
+//Card | 16-Galeria texto imagem//
+
+//Card | 17-Galeria texto//
+//nao precisa//
+//Card | 17-Galeria texto//
+
+//Card | 18-Linda do tempo//
+.traco-linha-do-tempo {
+    background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.data_linhadotempo {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.data_linhadotempo:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.data_linhadotempo:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+//Card | 18-Linda do tempo//
+
+
+//Card | 19-Abas H//
+//btn 1//
+.box1-filhos_abash {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.box1-filhos_abash:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+.box1-filhos_abash:active {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+.box1-filhos_abash:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+//btn 2//
+.box2-filhos_abash {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.box2-filhos_abash:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+.box2-filhos_abash:active {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+.box2-filhos_abash:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+//btn 3//
+.box3-filhos_abash {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.box3-filhos_abash:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+.box3-filhos_abash:active {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+.box3-filhos_abash:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+//btn 4//
+.box4-filhos_abash {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.box4-filhos_abash:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+.box4-filhos_abash:active {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+.box4-filhos_abash:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+//btn 5//
+.box5-filhos_abash {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.box5-filhos_abash:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+.box5-filhos_abash:active {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+.box5-filhos_abash:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: linear-gradient(180deg, $cor7, $cor7);
+}
+//Card | 19-Abas H//
+
+
+//Card | 20-Abas V//
+//btn 1//
+.box-clique-apareca_1 {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+  color: #fff;
+}
+//btn 2//
+.box-clique-apareca_2 {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+  color: #fff;
+}
+//btn 3//
+.box-clique-apareca_3 {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+  color: #fff;
+}
+//btn 4//
+.box-clique-apareca_4 {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+  color: #fff;
+}
+//btn 5//
+.box-clique-apareca_5 {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+  color: #fff;
+}
+//Card | 20-Abas V//
+
+
+//Card | 21-Botao texto//
+//btn 1//
+.btn1_bte {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);  
+}
+.btn1_bte:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn1_bte:active {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn1_bte:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//btn 2//
+.btn2_bte {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);  
+}
+.btn2_bte:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn2_bte:active {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn2_bte:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//btn 3//
+.btn3_bte {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);  
+}
+.btn3_bte:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn3_bte:active {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn3_bte:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//btn 4//
+.btn4_bte {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);  
+}
+.btn4_bte:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn4_bte:active {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn4_bte:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//btn 5//
+.btn5_bte {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);  
+}
+.btn5_bte:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn5_bte:active {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn5_bte:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//Card | 21-Botao texto//
+
+//Card | 22-Botao imagem//
+//nao precisa//
+//Card | 22-Botao imagem//
+
+//Card | 23-Imagem substituicao//
+//nao precisa//
+//Card | 23-Imagem substituicao//
+
+//Card | 24-Legenda de substituicao//
+//nao precisa//
+//Card | 24-Legenda de substituicao//
+
+//Card | 25-Box saiba mais//
+//nao precisa//
+//Card | 25-Box saiba mais//
+
+//Card | 26-Objeto//
+//nao precisa//
+//Card | 26-Objeto//
+
+//Card | 27-Link//
+//caixa link//
+.link_div.link_right {
+    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/mundo.png'), -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/mundo.png'), linear-gradient(180deg, $cor1, $cor1);
+}
+//tx link//
+.tx_link {
+    color: #ffcd0a;
+}
+//https link//
+.link_texto_block.cinza {
+    color: #ffcd0a;
+}
+//Card | 27-Link//
+
+//Card | 28-Botao aparece imagem//
+//btn 1//
+.btn1_bai {
+    background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.btn1_bai:hover {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn1_bai:active {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn1_bai:focus {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//btn 2//
+.btn2_bai {
+    background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.btn2_bai:hover {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn2_bai:active {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn2_bai:focus {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//btn 3//
+.btn3_bai {
+    background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.btn3_bai:hover {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn3_bai:active {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn3_bai:focus {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//btn 4//
+.btn4_bai {
+    background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.btn4_bai:hover {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn4_bai:active {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn4_bai:focus {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//btn 5//
+.btn5_bai {
+    background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.btn5_bai:hover {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn5_bai:active {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.btn5_bai:focus {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//Card | 28-Botao aparece imagem//
+
+//Card | 29-Galeria imagem vertical//
+//nao precisa//
+//Card | 29-Galeria imagem vertical//
+
+//Card | 30-Linha do tempo imagem//
+//nao precisa//
+//Card | 30-Linha do tempo imagem//
+
+//Card | 31-Linha do tempo texto e imagem//
+//nao precisa//
+//Card | 31-Linha do tempo texto e imagem//
+
+//Card | 32-Abas H imagem//
+//nao precisa//
+//Card | 32-Abas H imagem//
+
+//Card | 33-Abas H texto imagem//
+//nao precisa//
+//Card | 33-Abas H texto imagem//
+
+//Card | 34-Abas V imagem//
+.botao.btn-abasv-imagem {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.botao.btn-abasv-imagem:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor3, $cor3);
+  background-image: linear-gradient(180deg, $cor3, $cor3);
+}
+.botao.btn-abasv-imagem:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor3, $cor3);
+  background-image: linear-gradient(180deg, $cor3, $cor3);
+}
+//Card | 34-Abas V imagem//
+
+//Card | 35-Abas V texto imagem//
+.botao.btn-abasv-ti {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.botao.btn-abasv-ti:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor3, $cor3);
+  background-image: linear-gradient(180deg, $cor3, $cor3);
+}
+.botao.btn-abasv-ti:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor3, $cor3);
+  background-image: linear-gradient(180deg, $cor3, $cor3);
+}
+//Card | 35-Abas V texto imagem//
+
+//Card | 36-Box saiba mais//
+//nao precisa//
+//Card | 36-Box saiba mais//
+
+//Card | 37-Box saiba mais texto imagem//
+//nao precisa//
+//Card | 37-Box saiba mais texto imagem//
+
+//Card | 38-Comparativo//
+//nao precisa//
+//Card | 38-Comparativo//
+
+//Card | 39-Citacao//
+.citacao {
+  background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/aspas1-humanas.png'), url('https://dedmd.com.br/projetos/webflow/css/assets/aspas2-humanas.png');
+}
+//Card | 39-Citacao//
+
+//Card | 43-Interacao de conteudo//
+.tx-span1_ts {
+    color: $cor1;
+}
+.tx-span2_ts {
+    color: $cor1;
+}
+.tx-span3_ts {
+    color: $cor1;
+}
+.tx-span4_ts {
+    color: $cor1;
+}
+.tx-span5_ts {
+    color: $cor1;
+}
+.tx-span6_ts {
+    color: $cor1;
+}
+.tx-span7_ts {
+    color: $cor1;
+}
+.tx-span8_ts {
+    color: $cor1;
+}
+.div_span1_ts {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.div_span2_ts {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.div_span3_ts {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.div_span4_ts {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.div_span5_ts {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.div_span6_ts {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.div_span7_ts {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.div_span8_ts {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//Card | 43-Interacao de conteudo//
+
+//Card | legado - referencia//
+.span_ref {
+    color: $cor6;
+}
+//Card | legado - referencia//
+//CARDS//
+
+//OBJETOS//
+//Tabela//
+.celula_titulo {
+  background-color: $cor1;
+}
+.celula_cor {
+  background-color: $cor2; 
+}
+//Destaques//
+.destaque {
+    background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: linear-gradient(180deg, $cor2, $cor2);  
+}
+//Itens da lista//
+.item_da_lista {
+  background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/setinha.png');
+}
+//Tab//
+.tab_normal {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.tab_normal.w--current {
+  background-image: -webkit-linear-gradient(270deg, $cor3, $cor3);
+  background-image: linear-gradient(180deg, $cor3, $cor3);
+}
+.tab_text_active {
+  background-image: -webkit-linear-gradient(270deg, $cor3, $cor3);
+  background-image: linear-gradient(180deg, $cor3, $cor3);
+}
+//Botao Saiba Mais//
+.botao {  
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.botao:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.botao:active {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.botao:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.titulo-saiba-mais {
+    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/fechar.png'), -webkit-linear-gradient(270deg, $cor3, $cor3);
+    background-image: url('https://dedmd.com.br/projetos/webflow/css/assets/fechar.png'), linear-gradient(180deg, $cor3, $cor3);
+}
+//Botao clique apareca//
+.botao.clica-apareca-obj {  
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+  font-family: Museosans, sans-serif;
+  color: #fff;
+  font-size: 2.5em;
+  line-height: 25px;
+}
+.botao.clica-apareca-obj:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.botao.clica-apareca-obj:active {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.botao.clica-apareca-obj:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.box-clique-aparece-obj {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+//Box Aviso//
+.box-aviso {
+    background-image: -webkit-linear-gradient(270deg, $cor7, $cor7);
+    background-image: linear-gradient(180deg, $cor7, $cor7);    
+}
+//OBJETOS//
+
+//Formulario PHP//
+.div-pai-embed-php {
+    background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+    background-image: linear-gradient(180deg, $cor1, $cor1); 
+}
+.scroll-wrapper {
+  border: 30px solid $cor2;
+}
+.tx-bt-fecha-embed-php {
+  color: $cor1;
+}
+.tx-bt-fecha-embed-php:hover {
+  color: $cor2;
+}
+.tx-bt-fecha-embed-php:focus {
+  color: $cor2;
+}
+.bt-fecha-embed-php {
+  background-image: -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: linear-gradient(180deg, $cor2, $cor2);
+}
+.bt-fecha-embed-php:hover {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.bt-fecha-embed-php:active {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+.bt-fecha-embed-php:focus {
+  background-image: -webkit-linear-gradient(270deg, $cor1, $cor1);
+  background-image: linear-gradient(180deg, $cor1, $cor1);
+}
+
+//Scroll Formulario no iOS//
+.scroll-wrapper {
+    -webkit-overflow-scrolling: touch;
+
+    height: 100%;
+}
+@media screen and (max-width:992px) {
+    .scroll-wrapper {
+        overflow-y: auto;
+    }
+}
+.demo-iframe-holder {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+}
+iframe {
+    height: 100%;
+    width: 100%;
+}
+//Formulario no iOS//
+//Formulario PHP//
+
+//Barra de Progresso//
+.div-barra-lateral-2 {
+    position: fixed;
+    width: 20px;
+    top: 0px;
+    left: 0px;
+}
+.div-barra-lateral-2 div[class^="marcador-traco"] {
+    float: left;
+    width: 20px;
+    height: 240px;
+    margin: 0px 0px 0px -10px;
+    background-color: $cor2;
+    /*background-color: rgba(106, 104, 104, 0.7);*/
+    /*border-bottom: 1px solid rgb(0, 0, 0);*/
+}
+.div-barra-lateral-2 div[class^="marcador-traco"].reached {
+    /*background-color: rgb(193, 193, 193);*/
+    background-color: $cor1;
+}
+//Barra de Progresso//
+
+//Enumerador Slide//
+.page-number {
+    bottom: 0;
+    left: 15px;
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin: 0;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0;
+    border: 0;
+    font-family: 'Foco lt', 'Foco regular';
+    font-weight: 400;
+    font-size: 1.5em;
+    float: left;
+    color: #fff;
+}
+//Enumerador Slide//
+
+//LightBox Backdrop a Frente//
+.w-lightbox-backdrop {
+    z-index: 9999;
+}
+//LightBox Backdrop a Frente//
+
+//QR Code//
+canvas {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+//QR Code//
