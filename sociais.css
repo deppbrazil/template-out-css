@@ -1,5 +1,5 @@
 .titulo-padrao {
-  color: #00bea6; }
+  color: #411968; }
 
 .bt-anterior {
   background-image: url("assets-dist/assets-sociais/seta-para-cima.png"); }
@@ -8,78 +8,78 @@
   background-image: url("assets-dist/assets-sociais/seta-para-baixo.png"); }
 
 .div-tour {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .bt-tour {
-  background-color: #83d85a; }
+  background-color: #7a6095; }
 
 .bt-tour:hover {
-  background-color: #00bea6;
-  color: #83d85a; }
+  background-color: #411968;
+  color: #7a6095; }
 
 .bt-tour:active {
-  background-color: #00bea6;
-  color: #83d85a; }
+  background-color: #411968;
+  color: #7a6095; }
 
 .slide-nav {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .x_feedback {
-  background-image: url("assets-dist/assets-sociais/seta-branco.png"), -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: url("assets-dist/assets-sociais/seta-branco.png"), linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: url("assets-dist/assets-sociais/seta-branco.png"), -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: url("assets-dist/assets-sociais/seta-branco.png"), linear-gradient(180deg, #411968, #411968); }
 
 .feedback_nav {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .capa-unidade {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .capa-se-o {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .tx1-tela-dentro-iphone {
-  color: #00bea6; }
+  color: #411968; }
 
 .box-red_45-d {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .box-red_45-e {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .box-filho_45-d {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .div-filho_textoblocosh {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .traco-linha-do-tempo {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .data_linhadotempo {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .data_linhadotempo:hover {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .data_linhadotempo:focus {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .box1-filhos_abash {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .box1-filhos_abash:hover {
   background-image: -webkit-linear-gradient(270deg, #f8b134, #f8b134);
@@ -94,8 +94,8 @@
   background-image: linear-gradient(180deg, #f8b134, #f8b134); }
 
 .box2-filhos_abash {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .box2-filhos_abash:hover {
   background-image: -webkit-linear-gradient(270deg, #f8b134, #f8b134);
@@ -110,8 +110,8 @@
   background-image: linear-gradient(180deg, #f8b134, #f8b134); }
 
 .box3-filhos_abash {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .box3-filhos_abash:hover {
   background-image: -webkit-linear-gradient(270deg, #f8b134, #f8b134);
@@ -126,8 +126,8 @@
   background-image: linear-gradient(180deg, #f8b134, #f8b134); }
 
 .box4-filhos_abash {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .box4-filhos_abash:hover {
   background-image: -webkit-linear-gradient(270deg, #f8b134, #f8b134);
@@ -142,8 +142,8 @@
   background-image: linear-gradient(180deg, #f8b134, #f8b134); }
 
 .box5-filhos_abash {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .box5-filhos_abash:hover {
   background-image: -webkit-linear-gradient(270deg, #f8b134, #f8b134);
@@ -158,113 +158,113 @@
   background-image: linear-gradient(180deg, #f8b134, #f8b134); }
 
 .box-clique-apareca_1 {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a);
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095);
   color: #fff; }
 
 .box-clique-apareca_2 {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a);
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095);
   color: #fff; }
 
 .box-clique-apareca_3 {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a);
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095);
   color: #fff; }
 
 .box-clique-apareca_4 {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a);
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095);
   color: #fff; }
 
 .box-clique-apareca_5 {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a);
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095);
   color: #fff; }
 
 .btn1_bte {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .btn1_bte:hover {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn1_bte:active {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn1_bte:focus {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn2_bte {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .btn2_bte:hover {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn2_bte:active {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn2_bte:focus {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn3_bte {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .btn3_bte:hover {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn3_bte:active {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn3_bte:focus {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn4_bte {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .btn4_bte:hover {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn4_bte:active {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn4_bte:focus {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn5_bte {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .btn5_bte:hover {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn5_bte:active {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn5_bte:focus {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .link_div.link_right {
-  background-image: url("assets-dist/assets-sociais/mundo.png"), -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: url("assets-dist/assets-sociais/mundo.png"), linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: url("assets-dist/assets-sociais/mundo.png"), -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: url("assets-dist/assets-sociais/mundo.png"), linear-gradient(180deg, #411968, #411968); }
 
 .tx_link {
   color: #ffcd0a; }
@@ -273,275 +273,275 @@
   color: #ffcd0a; }
 
 .btn1_bai {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .btn1_bai:hover {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn1_bai:active {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn1_bai:focus {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn2_bai {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .btn2_bai:hover {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn2_bai:active {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn2_bai:focus {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn3_bai {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .btn3_bai:hover {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn3_bai:active {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn3_bai:focus {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn4_bai {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .btn4_bai:hover {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn4_bai:active {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn4_bai:focus {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn5_bai {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .btn5_bai:hover {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn5_bai:active {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .btn5_bai:focus {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .botao.btn-abasv-imagem {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .botao.btn-abasv-imagem:hover {
-  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
-  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
+  background-image: -webkit-linear-gradient(270deg, #d6cfde, #d6cfde);
+  background-image: linear-gradient(180deg, #d6cfde, #d6cfde); }
 
 .botao.btn-abasv-imagem:focus {
-  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
-  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
+  background-image: -webkit-linear-gradient(270deg, #d6cfde, #d6cfde);
+  background-image: linear-gradient(180deg, #d6cfde, #d6cfde); }
 
 .botao.btn-abasv-ti {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .botao.btn-abasv-ti:hover {
-  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
-  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
+  background-image: -webkit-linear-gradient(270deg, #d6cfde, #d6cfde);
+  background-image: linear-gradient(180deg, #d6cfde, #d6cfde); }
 
 .botao.btn-abasv-ti:focus {
-  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
-  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
+  background-image: -webkit-linear-gradient(270deg, #d6cfde, #d6cfde);
+  background-image: linear-gradient(180deg, #d6cfde, #d6cfde); }
 
 .citacao {
   background-image: url("assets-dist/assets-sociais/aspas1.png"), url("assets-dist/assets-sociais/aspas2.png"); }
 
 .tx-span1_ts {
-  color: #00bea6; }
+  color: #411968; }
 
 .tx-span2_ts {
-  color: #00bea6; }
+  color: #411968; }
 
 .tx-span3_ts {
-  color: #00bea6; }
+  color: #411968; }
 
 .tx-span4_ts {
-  color: #00bea6; }
+  color: #411968; }
 
 .tx-span5_ts {
-  color: #00bea6; }
+  color: #411968; }
 
 .tx-span6_ts {
-  color: #00bea6; }
+  color: #411968; }
 
 .tx-span7_ts {
-  color: #00bea6; }
+  color: #411968; }
 
 .tx-span8_ts {
-  color: #00bea6; }
+  color: #411968; }
 
 .div_span1_ts {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .div_span2_ts {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .div_span3_ts {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .div_span4_ts {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .div_span5_ts {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .div_span6_ts {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .div_span7_ts {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .div_span8_ts {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .span_ref {
-  color: #cf8e44; }
+  color: #f8b134; }
 
 .celula_titulo {
-  background-color: #00bea6; }
+  background-color: #411968; }
 
 .celula_cor {
-  background-color: #83d85a; }
+  background-color: #7a6095; }
 
 .destaque {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .item_da_lista {
   background-image: url("assets-dist/assets-sociais/setinha.png"); }
 
 .tab_normal {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .tab_normal.w--current {
-  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
-  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
+  background-image: -webkit-linear-gradient(270deg, #d6cfde, #d6cfde);
+  background-image: linear-gradient(180deg, #d6cfde, #d6cfde); }
 
 .tab_text_active {
+  background-image: -webkit-linear-gradient(270deg, #d6cfde, #d6cfde);
+  background-image: linear-gradient(180deg, #d6cfde, #d6cfde); }
+
+.botao {
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
+
+.botao:hover {
   background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
   background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
-.botao {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
-
-.botao:hover {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
-
 .botao:active {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .botao:focus {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .titulo-saiba-mais {
-  background-image: url("assets-dist/assets-sociais/fechar.png"), -webkit-linear-gradient(270deg, #7a6095, #7a6095);
-  background-image: url("assets-dist/assets-sociais/fechar.png"), linear-gradient(180deg, #7a6095, #7a6095); }
+  background-image: url("assets-dist/assets-sociais/fechar.png"), -webkit-linear-gradient(270deg, #d6cfde, #d6cfde);
+  background-image: url("assets-dist/assets-sociais/fechar.png"), linear-gradient(180deg, #d6cfde, #d6cfde); }
 
 .botao.clica-apareca-obj {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6);
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968);
   font-family: Museosans, sans-serif;
   color: #fff;
   font-size: 2.5em;
   line-height: 25px; }
 
 .botao.clica-apareca-obj:hover {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .botao.clica-apareca-obj:active {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .botao.clica-apareca-obj:focus {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .box-clique-aparece-obj {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .box-aviso {
   background-image: -webkit-linear-gradient(270deg, #f8b134, #f8b134);
   background-image: linear-gradient(180deg, #f8b134, #f8b134); }
 
 .div-pai-embed-php {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .scroll-wrapper {
-  border: 30px solid #83d85a; }
+  border: 30px solid #7a6095; }
 
 .tx-bt-fecha-embed-php {
-  color: #00bea6; }
+  color: #411968; }
 
 .tx-bt-fecha-embed-php:hover {
-  color: #83d85a; }
+  color: #7a6095; }
 
 .tx-bt-fecha-embed-php:focus {
-  color: #83d85a; }
+  color: #7a6095; }
 
 .bt-fecha-embed-php {
-  background-image: -webkit-linear-gradient(270deg, #83d85a, #83d85a);
-  background-image: linear-gradient(180deg, #83d85a, #83d85a); }
+  background-image: -webkit-linear-gradient(270deg, #7a6095, #7a6095);
+  background-image: linear-gradient(180deg, #7a6095, #7a6095); }
 
 .bt-fecha-embed-php:hover {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .bt-fecha-embed-php:active {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .bt-fecha-embed-php:focus {
-  background-image: -webkit-linear-gradient(270deg, #00bea6, #00bea6);
-  background-image: linear-gradient(180deg, #00bea6, #00bea6); }
+  background-image: -webkit-linear-gradient(270deg, #411968, #411968);
+  background-image: linear-gradient(180deg, #411968, #411968); }
 
 .scroll-wrapper {
   -webkit-overflow-scrolling: touch;
@@ -574,13 +574,13 @@ iframe {
   width: 20px;
   height: 240px;
   margin: 0px 0px 0px -10px;
-  background-color: #83d85a;
+  background-color: #7a6095;
   /*background-color: rgba(106, 104, 104, 0.7);*/
   /*border-bottom: 1px solid rgb(0, 0, 0);*/ }
 
 .div-barra-lateral-2 div[class^="marcador-traco"].reached {
   /*background-color: rgb(193, 193, 193);*/
-  background-color: #00bea6; }
+  background-color: #411968; }
 
 .page-number {
   bottom: 0;

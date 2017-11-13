@@ -36,11 +36,10 @@ Biologicas {
 
 
 Sociais {
-white
-#00bea6
+#333
+#411968
 #7a6095
 #d6cfde
-#333
 #cf8e44
 #f8b134
 #a38bce
