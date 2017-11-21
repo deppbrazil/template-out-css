@@ -607,4 +607,40 @@ canvas {
   height: auto;
   margin: auto; }
 
+.fundo-pagina {
+  background-image: url("assets-graphics/letras/body-pg.png");
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-position: 110% 50%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  opacity: 0.45; }
+
+.grafismo-capa {
+  background-image: url("assets-graphics/letras/capa.png"); }
+
+.card.grafismo-subcapa {
+  background-image: url("assets-graphics/letras/capa-destaque.png"), -webkit-linear-gradient(270deg, #f49382, #f49382);
+  background-image: url("assets-graphics/letras/capa-destaque.png"), linear-gradient(180deg, #f49382, #f49382); }
+
+.card.grafismo-paginas {
+  background-image: url("assets-graphics/letras/grafismo-pg.png"), -webkit-linear-gradient(270deg, white, white);
+  background-image: url("assets-graphics/letras/grafismo-pg.png"), linear-gradient(180deg, white, white); }
+
+.card.grafismo-capa-final {
+  background-image: url("assets-graphics/letras/grafismo-bg.png"), -webkit-linear-gradient(270deg, #f49382, #f49382);
+  background-image: url("assets-graphics/letras/grafismo-bg.png"), linear-gradient(180deg, #f49382, #f49382); }
+
 /*# sourceMappingURL=letras.css.map */

@@ -1,0 +1,1844 @@
+<!DOCTYPE html>
+<!--  Last Published: Fri Nov 17 2017 18:07:40 GMT+0000 (UTC)  -->
+<html data-wf-page="5a0ee04b71bd9600015fa9af" data-wf-site="5a0ee04b71bd9600015fa9b0">
+<head>
+  <meta charset="utf-8">
+  <title>TEMPLATE OUT CSS v3.0.0</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/components.css" rel="stylesheet" type="text/css">
+  <link href="css/out-all-css.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Varela Round:400"]
+        }
+      });
+    </script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">
+      ! function(o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+      }(window, document);
+    </script>
+  <link href="images/fav.png" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <!--  MathJax  -->
+  <script type="text/javascript" src="https://cm-kls-content.s3.amazonaws.com/DESEN_WEBAULA/WEBFLOW/biblioteca/MathJax-2.7.1/MathJax.js?config=TeX-MML-AM_SVG-full"></script>
+  <!--  MathJax  -->
+  <!--  QR Code  -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cm-kls-content.s3.amazonaws.com/DESEN_WEBAULA/QR_CODE/jquery-qrcode-0.14.0.min.js"></script>
+  <!--  QR Code  -->
+  <!--  Chamada JS + Form PHP tira zoom coloca zoom  -->
+  <script>
+      $(document).ready(function() {
+        $('.enviar_feedback').click(function(event) {
+          insereComentario();
+        });
+        $('.bt-feedback')[0].addEventListener('click', function() {
+          console.log("bt-feedback");
+          $('meta[name=viewport]').remove();
+          $('head').append('<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">');
+        });
+        $('.bt-fecha-embed-php')[0].addEventListener('click', function() {
+          $('meta[name=viewport]').remove();
+          $('head').append('<meta content="width=device-width, initial-scale=1, user-scalable=yes" name="viewport">');
+        });
+      });
+    </script>
+  <!--  Chamada JS + Form PHP: tira zoom coloca zoom  -->  
+  
+  <!--  Out-CSS -->
+  <link rel="stylesheet" href="../humanas.css">
+  <!--  Out-CSS -->
+
+</head>
+<body class="body">
+  <div data-ix="movimento-background" class="fundo-pagina"></div>
+  <div data-ix="tour" class="div-pai-tour">
+    <div class="menu-apres">
+      <div class="line1-menu-apres"></div>
+      <div class="line2-menu-apres"></div>
+      <div class="line3-menu-apres"></div>
+    </div>
+    <div class="div-tour">
+      <div class="tx-tour">Agora você tem um novo menu de opções aqui...</div>
+      <div data-ix="maozinha-tour" class="img-tour"></div>
+      <div data-ix="fecha-tour" class="bt-tour">
+        <div class="x-tour">pular</div>
+      </div>
+    </div>
+  </div>
+  <div class="div-barra-lateral-2"></div>
+  <div data-ix="entrada-barra-feedback" class="feedback_nav">Este conteúdo é melhor visualizado nos navegadores: <a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank" class="span_branco">Chrome</a>, <a href="https://www.mozilla.org/pt-BR/firefox/new/" target="_blank" class="span_branco">Firefox</a>, <a href="https://www.microsoft.com/pt-br/windows/microsoft-edge" target="_blank" class="span_branco">Edge</a> e <span class="span_branco">Safari</span>.</div>
+  <div data-ix="aba-barra-feedback" class="x_feedback"></div>
+  <div data-ix="aparencia-inicial-menu" class="div-pai-menu">
+    <div data-ix="menu-abrir" class="bt-menu-hamb">
+      <div class="line1-bt-menu"></div>
+      <div class="line2-bt-menu"></div>
+      <div class="line3-bt-menu"></div>
+    </div>
+    <div class="box-menu w-clearfix">
+      <div data-ix="abrir-form-php" class="bt-feedback"></div><a href="http://pdf/webaula.pdf" target="_blank" data-ix="menu-fechar" class="bt-pdf w-inline-block"></a><a id="btnAumentar" class="bt-a-mais w-inline-block"></a><a id="btnDiminuir" class="bt-a-menos w-inline-block"></a>
+      <h2 class="menu-subtitulo">Nome do Professor</h2>
+      <h1 class="menu-ttulo">Título Card Capa</h1>
+      <h2 class="menu-subtitulo">Unidade 1 - Seção 1</h2>
+      <h2 class="menor menu-subtitulo">Sub-título da capa interna</h2><a data-ix="menu-fechar" class="clique-capa menu-item">Capa</a><a data-ix="menu-fechar" class="clique-disciplina menu-item">Apresentação da Disciplina</a><a data-ix="menu-fechar" class="clique-unidade menu-item">Apresentação da Unidade</a><a data-ix="menu-fechar" class="clique-experimente menu-item">Experimente</a><a data-ix="menu-fechar" class="clique-explore menu-item">Explore</a><a data-ix="menu-fechar" class="clique-video menu-item">Vídeo de encerramento</a><a data-ix="menu-fechar" class="clique-conhece menu-item">Você já conhece o Saber?</a></div>
+  </div>
+  <div data-ix="form-php-inicial" class="div-pai-embed-php">
+    <div data-ix="fecha-form-php" class="bt-fecha-embed-php">
+      <div data-ix="fecha-form-php" class="tx-bt-fecha-embed-php">X</div>
+    </div>
+    <div class="scroll-wrapper w-embed w-iframe"><iframe src="https://dedmd.com.br/projetos/formulario/webaulas-webflow" width="100%" height="100%" scrolling="yes"></iframe></div>
+  </div>
+  <div class="box-feedback w-clearfix">
+    <div data-ix="feedback-bt-fechar" class="fechar_feedback">x</div>
+    <div class="form-wrapper w-form">
+      <form id="email-form" name="email-form" data-name="Email Form" class="form_feedback w-clearfix">
+        <div class="title_form">Como gostaria de melhorar este material?</div>
+        <p class="texto_form">Preencha os campos abaixo e nos ajude a melhorar nosso conteúdo.</p><label for="Perfil" class="nome_item_form">Perfil:</label><select id="Perfil" name="Perfil" data-name="Perfil" required="" class="selecionar_perfil w-select"><option value="">Clique para selecionar</option><option value="Aluno">Aluno</option><option value="Professor">Professor</option><option value="Tutor">Tutor</option><option value="Outro">Outro</option></select><label for="Cidade---Estado-2" class="nome_item_form">Cidade / Estado:</label><input type="text" class="campo_item_form w-input" maxlength="256" autofocus="true" name="Cidade---Estado" data-name="Cidade - Estado" placeholder="Cidade / Estado" id="Cidade---Estado-2" required=""><label for="Nome" class="nome_item_form">Nome:</label><input type="text" class="campo_item_form w-input" maxlength="256" name="Nome" data-name="Nome" placeholder="Nome" id="Nome" required=""><label for="E-mail" class="nome_item_form">E-mail:</label><input type="email" class="campo_item_form w-input" maxlength="256" name="E-mail" data-name="E-mail" placeholder="E-mail" id="E-mail" required=""><label for="Melhoria" class="nome_item_form">Assunto:</label><select id="Melhoria" name="Melhoria" data-name="Melhoria" required="" class="selecionar_perfil w-select"><option value="">Clique para selecionar</option><option value="Sugestão">Sugestão</option><option value="Problema Ortogramatical">Problema Ortogramatical</option><option value="Problema de Conteúdo">Problema de Conteúdo</option><option value="Problema de Funcionalidade">Problema de Funcionalidade</option><option value="Elogio">Elogio</option><option value="Reclamação">Reclamação</option></select><label for="Descri-o" class="nome_item_form">Descrição:</label><textarea id="Descri-o" name="Descri-o" placeholder="Insira aqui sua mensagem." maxlength="5000" data-name="Descrição" required="" class="campo_texto_form w-input"></textarea><label for="Avalia-o" class="nome_item_form">Avalie seu conteúdo:</label><select id="Avalia-o" name="Avalia-o" data-name="Avaliação" required="" class="avaliacao selecionar_perfil w-select"><option value="">Clique para selecionar</option><option value="Excelente">Excelente</option><option value="Muito Bom">Muito Bom</option><option value="Bom">Bom</option><option value="Regular">Regular</option><option value="Ruim">Ruim</option></select><input type="submit" value="Enviar" data-wait="Por favor, aguarde..." wait="Por favor, aguarde..." class="enviar_feedback w-button"></form>
+      <div class="w-form-done">
+        <div>Obrigado! Sua mensagem é muito importante e será respondida em breve!</div>
+      </div>
+      <div class="w-form-fail">
+        <div>Oops! Ocorreu algum erro, por gentileza, tente novamente.</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="alvo-capa base-card marcador-slide">
+    <div class="card">
+      <div class="imagem_capa"></div>
+      <div class="grafismo-capa">
+        <div class="div-pai_titulo">
+          <h1 data-ix="capa-titulo-load" class="titulo-capa">Aqui vai o Título...<br>9.0.0 Beta</h1>
+        </div>
+        <div data-ix="tela-fora-iphone" class="tela-fora-iphone">
+          <div data-ix="fechar-tela-iphone" class="fechar-tela-fora-iphone"></div>
+          <div class="tx-tela-fora-iphone">1. Acesse a loja de aplicativos do seu smartphone e baixe um leitor de <strong>QR CODE.</strong><br>
+            <br> 2. Abra o leitor e fotografe o código.<br>
+            <br> 3. Você será direcionado a este conteúdo. <br> Bons estudos!</div>
+        </div>
+        <div data-ix="entrada-iphone" class="iphone-qrcode">
+          <div class="botao-home-iphone"></div>
+          <div class="camera-iphone"></div>
+          <div class="alto-falante-iphone"></div>
+          <div class="tela-dentro-iphone">
+            <div class="tx1-tela-dentro-iphone">Acesse este conteúdo pelo smartphone</div>
+            <div data-ix="abrir-tela-iphone" class="qrcode-bg">
+              <div class="embed-qrcode w-embed w-script">
+                <!--  vai desenhar o qrcode aqui  -->
+                <div id="qrcode"></div>
+                <!--  vai desenhar o qrcode aqui  -->
+                <!--  valída a url e passa como string dentro de uma variável  -->
+                <script>
+                    var atualURL = document.URL;
+                    $('#qrcode').qrcode({
+                      width: 120,
+                      height: 120,
+                      text: atualURL
+                    });
+                  </script>
+                <!--  valída a url e passa como string dentro de uma variável  -->
+              </div>
+            </div>
+            <div class="tx2-tela-dentro-iphone"><strong>O que é isso?</strong><br> Clique no código e saiba mais.</div>
+          </div>
+        </div>
+        <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo bt-proximo-branco"></a></div>
+        <div data-ix="capa-unidade-load" class="capa-unidade">Unidade 1</div>
+        <div data-ix="capa-secao-load" class="capa-se-o">Seção 1</div>
+      </div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="alvo-disciplina base-card marcador-slide">
+    <div class="card grafismo-subcapa">
+      <div data-ix="subtitulo-scroll" class="titulo_secao">
+        <h2 class="titulo-capa-interna">Unidade X</h2>
+        <h3 class="sub1-capa-interna">Apresentação da Disciplina</h3>
+        <h4 class="sub2-capa-interna">xxxxxx</h4>
+      </div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo bt-proximo-branco"></a></div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior bt-anterior-branco"></a></div>
+      <div class="fonte-rodape"></div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="alvo-unidade base-card marcador-slide">
+    <div class="card grafismo-subcapa">
+      <div data-ix="subtitulo-scroll" class="titulo_secao">
+        <h2 class="titulo-capa-interna">Unidade X</h2>
+        <h3 class="sub1-capa-interna">Apresentação da Unidade</h3>
+        <h4 class="sub2-capa-interna">xxxxxx</h4>
+      </div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo bt-proximo-branco"></a></div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior bt-anterior-branco"></a></div>
+      <div class="fonte-rodape"></div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="alvo-explore base-card marcador-slide">
+    <div class="card grafismo-subcapa">
+      <div data-ix="subtitulo-scroll" class="titulo_secao">
+        <h2 class="titulo-capa-interna">Webaula 1</h2>
+        <h3 class="sub1-capa-interna">xxxxxxxxxx</h3>
+        <h4 class="sub2-capa-interna">Explore</h4>
+      </div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo bt-proximo-branco"></a></div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior bt-anterior-branco"></a></div>
+      <div class="fonte-rodape"></div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="alvo-experimente base-card marcador-slide">
+    <div class="card grafismo-subcapa">
+      <div data-ix="subtitulo-scroll" class="titulo_secao">
+        <h2 class="titulo-capa-interna">Webaula 1</h2>
+        <h3 class="sub1-capa-interna">xxxxxxxxxx</h3>
+        <h4 class="sub2-capa-interna">Experimente</h4>
+      </div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo bt-proximo-branco"></a></div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior bt-anterior-branco"></a></div>
+      <div class="fonte-rodape"></div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card grafismo-paginas">
+      <div class="conteudo w-clearfix">
+        <div class="div-pai_50-e">
+          <h1 class="titulo-padrao">Texto e imagem</h1>
+          <div class="texto-padrao">Nono nono nono nono nonono nono nono nono no nononono nono no nonono. Nono nono nono nono nonono nono nono nono no nononono nono no nonono.Nono nono nono nono nonono nono nono nono no nononono nono no nonono. Nono nono nono nono nonono nono nono nono no nononono nono no nonono.Nono nono nono nono nonono nono nono nono no nononono nono no nonono.</div>
+        </div>
+        <div class="box-45-d">
+          <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <div class="box_45-e">
+          <div class="titulo-img_45-e">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <div class="fonte-45-e">Fonte da imagem (se aplicavél)</div>
+        </div>
+        <div class="div-pai_50-d">
+          <h1 class="titulo-padrao">Imagem e texto</h1>
+          <div class="texto-padrao">Nono nono nono nono nonono nono nono nono no nononono nono no nonono. Nono nono nono nono nonono nono nono nono no nononono nono no nonono.Nono nono nono nono nonono nono nono nono no nononono nono no nonono. Nono nono nono nono nonono nono nono nono no nononono nono no nonono.Nono nono nono nono nonono nono nono nono no nononono nono no nonono.</div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <div class="div-pai_50-e">
+          <h1 class="titulo-padrao">Texto e box</h1>
+          <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend bibendum et et ante.</p>
+        </div>
+        <div class="box-red_45-d">
+          <p data-ix="opacidade-scroll" class="texto-padrao tx_box-red-45">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. </p>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <div class="box-red_45-e">
+          <h1 class="titulo-padrao titulo-padrao-bco">Box e texto</h1>
+          <p data-ix="opacidade-scroll" class="texto-padrao tx_box-red-45">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. </p>
+        </div>
+        <div class="div-pai_50-d">
+          <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend bibendum et et ante.</p>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <div class="div-pai_50-e">
+          <h1 class="titulo-padrao">Texto blocosV</h1>
+          <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend bibendum et et ante.</p>
+        </div>
+        <div class="box-pai_45-d">
+          <div class="box-filho_45-d">
+            <div class="tx-box_45-d">This is some text inside of a div block.</div>
+          </div>
+          <div class="box-filho_45-d">
+            <div class="tx-box_45-d">This is some text inside of a div block.</div>
+          </div>
+          <div class="box-filho_45-d">
+            <div class="tx-box_45-d">This is some text inside of a div block.</div>
+          </div>
+          <div class="box-filho_45-d">
+            <div class="tx-box_45-d">This is some text inside of a div block.</div>
+          </div>
+          <div class="box-filho_45-d">
+            <div class="tx-box_45-d">This is some text inside of a div block.</div>
+          </div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 class="titulo-padrao">Texto blocosH</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. </p>
+        <div class="div-pai_textosblocosh">
+          <div class="div-filho_textoblocosh">
+            <div class="tx-box_textoblocosh">This is some text inside of a div block.</div>
+          </div>
+          <div class="div-filho_textoblocosh">
+            <div class="tx-box_textoblocosh">This is some text inside of a div block.</div>
+          </div>
+          <div class="div-filho_textoblocosh">
+            <div class="tx-box_textoblocosh">This is some text inside of a div block.</div>
+          </div>
+          <div class="div-filho_textoblocosh">
+            <div class="tx-box_textoblocosh">This is some text inside of a div block.</div>
+          </div>
+          <div class="div-filho_textoblocosh">
+            <div class="tx-box_textoblocosh">This is some text inside of a div block.</div>
+          </div>
+          <div class="div-filho_textoblocosh">
+            <div class="tx-box_textoblocosh">This is some text inside of a div block.</div>
+          </div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <div class="div-pai_central">
+          <h1 class="titulo-padrao">Texto centralizado</h1>
+          <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend bibendum et et ante.</p>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <div class="div-pai_65-e">
+          <h1 class="titulo-padrao">Texto a esquerda</h1>
+          <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend bibendum et et ante.</p>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <div class="div-pai_65-d">
+          <h1 class="titulo-padrao">Texto a direita</h1>
+          <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend bibendum et et ante.</p>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 class="titulo-padrao">Texto 2 colunas</h1>
+        <div class="div-pai_tx-2-col">
+          <div class="div-pai_45-e">
+            <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend hauaaccjaca c am cma cmac am cam cam cam cam.</p>
+          </div>
+          <div class="div-pai_45-d">
+            <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend hauaaccjaca c am cma cmac am cam cam cam cam.</p>
+          </div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 class="titulo-padrao">Imagem texto acima</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend bibendum et et ante.</p>
+        <div class="box_textoacimaimagem">
+          <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 class="titulo-padrao">Imagem acima texto</h1>
+        <div class="box_textoacimaimagem">
+          <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+        </div>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend bibendum et et ante.</p>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 class="titulo-padrao">Galeria de imagem</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. </p>
+        <div data-animation="slide" data-hide-arrows="1" data-duration="500" class="fundo-transparente slider slider-imagem w-slider">
+          <div class="w-slider-mask">
+            <div class="slide01 w-slide">
+              <div class="box_imagem_galeria">
+                <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><a href="#" class="w-inline-block w-lightbox"><img src="https://d3e54v103j8qbb.cloudfront.net/img/placeholder-thumb.svg"></a>
+                <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+              </div>
+            </div>
+            <div class="slide02 w-slide">
+              <div class="box_imagem_galeria">
+                <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><a href="#" class="w-inline-block w-lightbox"><img src="https://d3e54v103j8qbb.cloudfront.net/img/placeholder-thumb.svg"></a>
+                <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+              </div>
+            </div>
+            <div class="slide03 w-slide">
+              <div class="box_imagem_galeria">
+                <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><a href="#" class="w-inline-block w-lightbox"><img src="https://d3e54v103j8qbb.cloudfront.net/img/placeholder-thumb.svg"></a>
+                <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+              </div>
+            </div>
+          </div>
+          <div class="w-slider-arrow-left">
+            <div class="slide-seta-escura slide-setas w-icon-slider-left"></div>
+          </div>
+          <div class="slide-setas w-slider-arrow-right">
+            <div class="slide-seta-escura slide-setas w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav w-round w-slider-nav"></div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 class="titulo-padrao">Galeria de texto e imagem</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. </p>
+        <div data-animation="slide" data-hide-arrows="1" data-duration="500" class="fundo-transparente slider w-slider">
+          <div class="mask w-slider-mask">
+            <div class="slide w-slide">
+              <div class="texto_imagem">
+                <div class="box_texto_49p">
+                  <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. </p>
+                </div>
+                <div class="box_texto_49p">
+                  <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+                  <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+                </div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="texto_imagem">
+                <div class="box_texto_49p">
+                  <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. </p>
+                </div>
+                <div class="box_texto_49p">
+                  <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+                  <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+                </div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="texto_imagem">
+                <div class="box_texto_49p">
+                  <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. </p>
+                </div>
+                <div class="box_texto_49p">
+                  <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+                  <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+                </div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="texto_imagem">
+                <div class="box_texto_49p">
+                  <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. </p>
+                </div>
+                <div class="box_texto_49p">
+                  <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+                  <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+                </div>
+              </div>
+            </div>
+            <div class="slide w-slide">
+              <div class="texto_imagem">
+                <div class="box_texto_49p">
+                  <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. </p>
+                </div>
+                <div class="box_texto_49p">
+                  <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+                  <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="left-arrow w-slider-arrow-left">
+            <div class="slide-seta-escura slide-setas w-icon-slider-left"></div>
+          </div>
+          <div class="slide-setas w-slider-arrow-right">
+            <div class="slide-seta-escura slide-setas w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav w-round w-slider-nav"></div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 class="titulo-padrao">Galeria de texto</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. </p>
+        <div data-animation="slide" data-hide-arrows="1" data-duration="500" class="fundo-transparente slider w-slider">
+          <div class="mask w-slider-mask">
+            <div class="slide w-slide">
+              <p class="texto-padrao texto_slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. </p>
+            </div>
+            <div class="slide w-slide">
+              <p class="texto-padrao texto_slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. </p>
+            </div>
+            <div class="slide w-slide">
+              <p class="texto-padrao texto_slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. </p>
+            </div>
+            <div class="slide w-slide">
+              <p class="texto-padrao texto_slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. </p>
+            </div>
+            <div class="slide w-slide">
+              <p class="texto-padrao texto_slider">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. </p>
+            </div>
+          </div>
+          <div class="left-arrow w-slider-arrow-left">
+            <div class="slide-seta-escura slide-setas w-icon-slider-left"></div>
+          </div>
+          <div class="slide-setas w-slider-arrow-right">
+            <div class="slide-seta-escura slide-setas w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav w-round w-slider-nav"></div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2017</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 class="titulo-padrao">Linha do tempo</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-pai_linhadotempo">
+          <div class="traco-linha-do-tempo"></div>
+          <div class="div-alinhamento_data">
+            <a href="#" data-ix="show-lt-data1" class="data1 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+            <a href="#" data-ix="show-lt-data-2" class="data2 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+            <a href="#" data-ix="show-lt-data-3" class="data3 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+            <a href="#" data-ix="show-lt-data-4" class="data4 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+            <a href="#" data-ix="show-lt-data-5" class="data5 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+          </div>
+        </div>
+        <p data-ix="none-tx-lt" class="txt1-data1"><span><strong>DATA 1:</strong></span> Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <p data-ix="none-tx-lt" class="txt2-data2"><span><strong>DATA 2:</strong></span> Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <p data-ix="none-tx-lt" class="txt3-data3"><span><strong>DATA 3:</strong></span> Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <p data-ix="none-tx-lt" class="txt4-data4"><span><strong>DATA 4:</strong></span> Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <p data-ix="none-tx-lt" class="txt5-data5"><span><strong>DATA 5:</strong></span> Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 class="titulo-padrao">AbasH</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-pai_abash">
+          <a href="#" data-ix="show-abash-box1" class="box1-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA1</strong></div>
+          </a>
+          <a href="#" data-ix="show-abash-box2" class="box2-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA2</strong></div>
+          </a>
+          <a href="#" data-ix="show-abash-box3" class="box3-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA3</strong></div>
+          </a>
+          <a href="#" data-ix="show-abash-box4" class="box4-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA4</strong></div>
+          </a>
+          <a href="#" data-ix="show-abash-box5" class="box5-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA5</strong></div>
+          </a>
+        </div>
+        <div data-ix="none-tx-abash" class="txt1_abash">ABA 1:<br>This is some text inside of a div block.This is some text inside of a div block.This is some text inside of a div block.This is some text inside of a div block.</div>
+        <div data-ix="none-tx-abash" class="txt2_abash">ABA 2:<br>This is some text inside of a div block.This is some text inside of a div block.This is some text inside of a div block.This is some text inside of a div block.</div>
+        <div data-ix="none-tx-abash" class="txt3_abash">ABA 3:<br>This is some text inside of a div block.This is some text inside of a div block.This is some text inside of a div block.This is some text inside of a div block.</div>
+        <div data-ix="none-tx-abash" class="txt4_abash">ABA 4:<br>This is some text inside of a div block.This is some text inside of a div block.This is some text inside of a div block.This is some text inside of a div block.</div>
+        <div data-ix="none-tx-abash" class="txt5_abash">ABA 5:<br>This is some text inside of a div block.This is some text inside of a div block.This is some text inside of a div block.This is some text inside of a div block.</div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <h1 class="titulo-padrao">AbasV</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-pai_abasv w-clearfix"><a href="#" data-ix="20-abasv-1" class="botao btn_abasv w-button">Aba1</a>
+          <div data-ix="20-abasv-ap-inicial-div" class="box-clique-apareca_1">
+            <div class="tx-clique-apareca1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</div>
+          </div>
+        </div>
+        <div class="div-pai_abasv w-clearfix"><a href="#" data-ix="20-abasv-2" class="botao btn_abasv w-button">Aba2</a>
+          <div data-ix="20-abasv-ap-inicial-div" class="box-clique-apareca_2">
+            <div data-ix="20-abasv-ap-inicial-tx" class="tx-clique-apareca2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</div>
+          </div>
+        </div>
+        <div class="div-pai_abasv w-clearfix"><a href="#" data-ix="20-abasv-3" class="botao btn_abasv w-button">Aba3</a>
+          <div data-ix="20-abasv-ap-inicial-div" class="box-clique-apareca_3">
+            <div data-ix="20-abasv-ap-inicial-tx" class="tx-clique-apareca3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</div>
+          </div>
+        </div>
+        <div class="div-pai_abasv w-clearfix"><a href="#" data-ix="20-abasv-4" class="botao btn_abasv w-button">Aba4</a>
+          <div data-ix="20-abasv-ap-inicial-div" class="box-clique-apareca_4">
+            <div data-ix="20-abasv-ap-inicial-tx" class="tx-clique-apareca4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</div>
+          </div>
+        </div>
+        <div class="div-pai_abasv div10_abasv w-clearfix"><a href="#" data-ix="20-abasv-5" class="botao btn_abasv w-button">Aba5</a>
+          <div data-ix="20-abasv-ap-inicial-div" class="box-clique-apareca_5">
+            <div data-ix="20-abasv-ap-inicial-tx" class="tx-clique-apareca5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</div>
+          </div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <h1 class="titulo-padrao">Botão texto expandir</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-pai_bte"><a href="#" data-ix="21-bte-1" class="btn1_bte w-button">Botão</a>
+          <div data-ix="esconder-cx-21-botaotexto" class="div-tx_t1_bte">
+            <div data-ix="esconder-tx-21-botaotexto" class="tx1-bte">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</div>
+          </div>
+        </div>
+        <div class="div-pai_bte"><a href="#" data-ix="21-bte-2" class="btn2_bte w-button">Botão</a>
+          <div data-ix="esconder-cx-21-botaotexto" class="div-tx_t2_bte">
+            <div data-ix="esconder-tx-21-botaotexto" class="tx2_bte">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</div>
+          </div>
+        </div>
+        <div class="div-pai_bte"><a href="#" data-ix="21-bte-3" class="btn3_bte w-button">Botão</a>
+          <div data-ix="esconder-cx-21-botaotexto" class="div-tx_t3_bte">
+            <div data-ix="esconder-tx-21-botaotexto" class="tx3_bte">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</div>
+          </div>
+        </div>
+        <div class="div-pai_bte"><a href="#" data-ix="21-bte-4" class="btn4_bte w-button">Botão</a>
+          <div data-ix="esconder-cx-21-botaotexto" class="div-tx_t4_bte">
+            <div data-ix="esconder-tx-21-botaotexto" class="tx4_bte">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</div>
+          </div>
+        </div>
+        <div class="div-pai_bte"><a href="#" data-ix="21-bte-5" class="btn5_bte w-button">Botão</a>
+          <div data-ix="esconder-cx-21-botaotexto" class="div-tx_t5_bte">
+            <div data-ix="esconder-tx-21-botaotexto" class="tx5_bte">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</div>
+          </div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <h1 class="titulo-padrao">Botão imagem expandir</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-pai1_bie">
+          <div data-ix="22-bie-1" class="bt1_bie"></div>
+          <div class="fonte-bt-img-ex">Fonte da imagem (se aplicável)</div>
+          <div data-ix="22-bie-esconder-div" class="div1_bie">
+            <div data-ix="22-bie-esconder-tx" class="tx1_bie">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</div>
+          </div>
+        </div>
+        <div class="div-pai2_bie">
+          <div data-ix="22-bie-2" class="bt2_bie"></div>
+          <div class="fonte-bt-img-ex">Fonte da imagem (se aplicável)</div>
+          <div data-ix="22-bie-esconder-div" class="div2_bie">
+            <div data-ix="22-bie-esconder-tx" class="tx2_bie">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</div>
+          </div>
+        </div>
+        <div class="div-pai3_bie">
+          <div data-ix="22-bie-3" class="bt3_bie"></div>
+          <div class="fonte-bt-img-ex">Fonte da imagem (se aplicável)</div>
+          <div data-ix="22-bie-esconder-div" class="div3_bie">
+            <div data-ix="22-bie-esconder-tx" class="tx3_bie">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</div>
+          </div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <div class="div-pai_50-e">
+          <h1 class="titulo-padrao">Imagem de substituição</h1>
+          <p data-ix="opacidade-scroll" class="tx_50-e">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend bibendum et et ante.</p>
+        </div>
+        <div class="box-45-d">
+          <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><a href="#" class="w-inline-block w-lightbox"><img src="https://d3e54v103j8qbb.cloudfront.net/img/placeholder-thumb.svg"></a>
+          <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <div class="div-pai_50-e">
+          <h1 class="titulo-padrao">Legenda de substituição</h1>
+          <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend bibendum et et ante.</p>
+        </div>
+        <div class="div-bt_ls">
+          <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg" data-ix="aparecer-img-is" class="hand">
+          <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+        </div>
+        <div data-ix="div-tx-ls" class="div-tx_ls">
+          <div data-ix="tx-x" class="tx_x">X</div>
+          <div class="tx_ls">Nono nono nono nono nonono nono nono nono no nononono nono no nonono. Nono nono nono nono nonono nono nono nono no nononono nono no nonono.Nono nono nono nono nonono nono nono nono no nononono nono no nonono. Nono nono nono nono nonono nono nono nono no nononono nono no nonono.Nono nono nono nono nonono nono nono nono no nononono nono no nonono.</div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <h1 class="titulo-padrao">Box Saiba Mais</h1>
+        <p data-ix="opacidade-scroll" class="tx_bsm-45-e">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <p data-ix="opacidade-scroll" class="tx_bsm-45-d">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-pai_bt-sm w-clearfix"><a href="#" data-ix="saiba-mais-aparecer" class="botao w-button">xxxxxxxxxx</a></div>
+        <div data-ix="saiba-mais-esconder" class="box_bsm">
+          <div class="titulo-saiba-mais">xxxxxxxxxx</div>
+          <div class="texto-saiba-mais">O diagrama de Venn recebeu esse nome em homenagem ao inglês John Venn (1834-1923), pois ele utilizou esta maneira para representar conjuntos em um artigo de 1876 e em seu livro Symbolic Logic, de 1894.</div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 class="titulo-padrao">Vídeo de encerramento</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="embed w-embed"><embed src="colar_link_https" width="100%" height="100%" overflow="hidden" frameborder="0" scrolling="no"><embed></div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape"></div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <a href="https://" target="_blank" data-ix="link-direita-scroll" class="link_div link_right w-inline-block">
+          <h5 data-ix="link-direita-scroll" class="tx_link">Link</h5>
+          <div class="link_texto_block">Leia o seguinte artigo do Prof. Nono nono, nono nononon onono nono nono non ononono nonon onono nono.</div>
+          <div class="cinza link_texto_block">Disponível em: https://nono.com . Acesso em: 1 jan. 2016.</div>
+        </a>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card grafismo-paginas">
+      <div class="conteudo w-clearfix">
+        <h1 class="titulo-padrao">Heading</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-pai_bai"><a href="#" data-ix="botaoaparecerimagem1" class="btn1_bai w-button">Botão</a>
+          <div data-ix="sumir-div-img-bai" class="div-img_bt1_bai">
+            <div data-ix="sumir-div-img-bai" class="img1_bai"></div>
+          </div>
+          <div class="fonte-bt1">Fonte da imagem (se aplicavél)</div>
+        </div>
+        <div class="div-pai_bai"><a href="#" data-ix="botaoaparecerimagem-2" class="btn2_bai w-button">Botão</a>
+          <div data-ix="sumir-div-img-bai" class="div-img_bt2_bai">
+            <div data-ix="sumir-div-img-bai" class="img2_bai"></div>
+          </div>
+          <div class="fonte-bt2">Fonte da imagem (se aplicavél)</div>
+        </div>
+        <div class="div-pai_bai"><a href="#" data-ix="botaoaparecerimagem-3" class="btn3_bai w-button">Botão</a>
+          <div data-ix="sumir-div-img-bai" class="div-img_bt3_bai">
+            <div data-ix="sumir-div-img-bai" class="img3_bai"></div>
+          </div>
+          <div class="fonte-bt3">Fonte da imagem (se aplicavél)</div>
+        </div>
+        <div class="div-pai_bai"><a href="#" data-ix="botaoaparecerimagem-4" class="btn4_bai w-button">Botão</a>
+          <div data-ix="sumir-div-img-bai" class="div-img_bt4_bai">
+            <div data-ix="sumir-div-img-bai" class="img4_bai"></div>
+          </div>
+          <div class="fonte-bt4">Fonte da imagem (se aplicavél)</div>
+        </div>
+        <div class="div-pai_bai"><a href="#" data-ix="botaoaparecerimagem-5" class="btn5_bai w-button">Botão</a>
+          <div data-ix="sumir-div-img-bai" class="div-img_bt5_bai">
+            <div data-ix="sumir-div-img-bai" class="img5_bai"></div>
+          </div>
+          <div class="fonte-bt5">Fonte da imagem (se aplicavél)</div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo conteudo-flex w-clearfix">
+        <div class="box-45-e">
+          <h1 class="titulo-padrao">Galeria imagem vertical</h1>
+          <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend bibendum et et ante.</p>
+        </div>
+        <div data-animation="slide" data-hide-arrows="1" data-duration="500" class="slider slider-48p w-slider">
+          <div class="w-slider-mask">
+            <div class="slide01 w-slide">
+              <div class="box_img">
+                <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><a href="#" class="w-inline-block w-lightbox"><img src="https://d3e54v103j8qbb.cloudfront.net/img/placeholder-thumb.svg"></a>
+                <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+              </div>
+            </div>
+            <div class="slide02 w-slide">
+              <div class="box_img">
+                <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><a href="#" class="w-inline-block w-lightbox"><img src="https://d3e54v103j8qbb.cloudfront.net/img/placeholder-thumb.svg"></a>
+                <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+              </div>
+            </div>
+            <div class="slide03 w-slide">
+              <div class="box_img">
+                <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><a href="#" class="w-inline-block w-lightbox"><img src="https://d3e54v103j8qbb.cloudfront.net/img/placeholder-thumb.svg"></a>
+                <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+              </div>
+            </div>
+          </div>
+          <div class="left-arrow-2 w-slider-arrow-left">
+            <div class="slide-seta-escura slide-setas w-icon-slider-left"></div>
+          </div>
+          <div class="slide-setas w-slider-arrow-right">
+            <div class="slide-seta-escura slide-setas w-icon-slider-right"></div>
+          </div>
+          <div class="slide-nav w-round w-slider-nav"></div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 class="titulo-padrao">Linha do tempo - imagem</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-pai_linhadotempo">
+          <div class="div-alinhamento_data">
+            <a href="#" data-ix="show-lti-data1" class="data1 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+            <a href="#" data-ix="show-lti-data-2" class="data2 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+            <a href="#" data-ix="show-lti-data-3" class="data3 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+            <a href="#" data-ix="show-lti-data-4" class="data4 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+            <a href="#" data-ix="show-lti-data-5" class="data5 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+          </div>
+          <div class="traco-linha-do-tempo"></div>
+        </div>
+        <div data-ix="none-tx-lti" class="div-pai1-img_lti">
+          <p class="tx-titulo_lti"><strong>Título da imagem 1 (se aplicável)</strong></p><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <p class="fonte-img_lti">Fonte da imagem 1 (se aplicável)</p>
+        </div>
+        <div data-ix="none-tx-lti" class="div-pai2-img_lti">
+          <p class="tx-titulo_lti"><strong>Título da imagem 2 (se aplicável)</strong></p><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <p class="fonte-img_lti">Fonte da imagem 2 (se aplicável)</p>
+        </div>
+        <div data-ix="none-tx-lti" class="div-pai3-img_lti">
+          <p class="tx-titulo_lti"><strong>Título da imagem 3 (se aplicável)</strong></p><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <p class="fonte-img_lti">Fonte da imagem 3 (se aplicável)</p>
+        </div>
+        <div data-ix="none-tx-lti" class="div-pai4-img_lti">
+          <p class="tx-titulo_lti"><strong>Título da imagem 4 (se aplicável)</strong></p><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <p class="fonte-img_lti">Fonte da imagem 4 (se aplicável)</p>
+        </div>
+        <div data-ix="none-tx-lti" class="div-pai5-img_lti">
+          <p class="tx-titulo_lti"><strong>Título da imagem 5 (se aplicável)</strong></p><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <p class="fonte-img_lti">Fonte da imagem 5 (se aplicável)</p>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <h1 class="titulo-padrao">Linha do tempo - texto e imagem</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-pai_linhadotempo">
+          <div class="div-alinhamento_data">
+            <a href="#" data-ix="show-ltti-data-1" class="data1 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+            <a href="#" data-ix="show-ltti-data-2" class="data2 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+            <a href="#" data-ix="show-ltti-data-3" class="data3 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+            <a href="#" data-ix="show-ltti-data-4" class="data4 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+            <a href="#" data-ix="show-ltti-data-5" class="data5 data_linhadotempo w-inline-block">
+              <div class="tx-data_linhadotempo">2017</div>
+            </a>
+          </div>
+          <div class="traco-linha-do-tempo"></div>
+        </div>
+        <div data-ix="none-div-ltti" class="div-pai1_ltti w-clearfix">
+          <div class="tx-ltti"><strong><span>Box 1</span></strong><br>Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique.Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique.</div>
+          <div class="div-img1_ltti">
+            <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+            <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+          </div>
+        </div>
+        <div data-ix="none-div-ltti" class="div-pai2_ltti w-clearfix">
+          <div class="tx-ltti"><strong><span>Box 2</span></strong><br>Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique.Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique.</div>
+          <div class="div-img1_ltti">
+            <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+            <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+          </div>
+        </div>
+        <div data-ix="none-div-ltti" class="div-pai3_ltti w-clearfix">
+          <div class="tx-ltti"><strong><span>Box 3</span></strong><br>Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique.Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique.</div>
+          <div class="div-img1_ltti">
+            <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+            <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+          </div>
+        </div>
+        <div data-ix="none-div-ltti" class="div-pai4_ltti w-clearfix">
+          <div class="tx-ltti"><strong><span>Box 4</span></strong><br>Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique.Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique.</div>
+          <div class="div-img1_ltti">
+            <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+            <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+          </div>
+        </div>
+        <div data-ix="none-div-ltti" class="div-pai5_ltti w-clearfix">
+          <div class="tx-ltti"><strong><span>Box 5</span></strong><br>Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique.Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique.</div>
+          <div class="div-img1_ltti">
+            <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+            <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+          </div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 class="titulo-padrao">AbasH - imagem</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-pai_abash">
+          <a href="#" data-ix="show-abash-imagem1" class="box1-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA1</strong></div>
+          </a>
+          <a href="#" data-ix="show-abash-imagem-2" class="box2-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA2</strong></div>
+          </a>
+          <a href="#" data-ix="show-abash-imagem-3" class="box3-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA3</strong></div>
+          </a>
+          <a href="#" data-ix="show-abash-imagem-4" class="box4-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA4</strong></div>
+          </a>
+          <a href="#" data-ix="show-abash-imagem-5" class="box5-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA5</strong></div>
+          </a>
+        </div>
+        <div data-ix="none-div-abash-imagem" class="div-pai_abash-imagem1">
+          <div class="titulo-img-abash"><strong>Título da imagem 1 (se aplicável)</strong></div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <div class="legenda-img-abash">Fonte da imagem 1 (se aplicável)</div>
+        </div>
+        <div data-ix="none-div-abash-imagem" class="div-pai_abash-imagem2">
+          <div class="titulo-img-abash"><strong>Título da imagem 2 (se aplicável)</strong></div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <div class="legenda-img-abash">Fonte da imagem 2 (se aplicável)</div>
+        </div>
+        <div data-ix="none-div-abash-imagem" class="div-pai_abash-imagem3">
+          <div class="titulo-img-abash"><strong>Título da imagem 3 (se aplicável)</strong></div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <div class="legenda-img-abash">Fonte da imagem 3 (se aplicável)</div>
+        </div>
+        <div data-ix="none-div-abash-imagem" class="div-pai_abash-imagem4">
+          <div class="titulo-img-abash"><strong>Título da imagem 4 (se aplicável)</strong></div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <div class="legenda-img-abash">Fonte da imagem 4 (se aplicável)</div>
+        </div>
+        <div data-ix="none-div-abash-imagem" class="div-pai_abash-imagem5">
+          <div class="titulo-img-abash"><strong>Título da imagem 5 (se aplicável)</strong></div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <div class="legenda-img-abash">Fonte da imagem 5 (se aplicável)</div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 class="titulo-padrao">AbasH - texto e imagem</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-pai_abash">
+          <a href="#" data-ix="show-abash-ti-1" class="box1-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA1</strong></div>
+          </a>
+          <a href="#" data-ix="show-abash-ti-2" class="box2-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA2</strong></div>
+          </a>
+          <a href="#" data-ix="show-abash-ti-3" class="box3-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA3</strong></div>
+          </a>
+          <a href="#" data-ix="show-abash-ti-4" class="box4-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA4</strong></div>
+          </a>
+          <a href="#" data-ix="show-abash-ti-5" class="box5-filhos_abash w-inline-block">
+            <div class="tx1-box_abash"><strong>ABA5</strong></div>
+          </a>
+        </div>
+        <div data-ix="none-div-abash-ti" class="div-pai_abash-ti-1 w-clearfix"><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg" class="img-abash-ti">
+          <div class="tx-abash-ti">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.</div>
+          <div class="fonte-abash-ti">Fonte da imagem (se aplicavél)</div>
+        </div>
+        <div data-ix="none-div-abash-ti" class="div-pai_abash-ti-2 w-clearfix">
+          <div class="tx-abash-ti">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg" class="img-abash-ti">
+          <div class="fonte-abash-ti">Fonte da imagem (se aplicavél)</div>
+        </div>
+        <div data-ix="none-div-abash-ti" class="div-pai_abash-ti-3 w-clearfix">
+          <div class="tx-abash-ti">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg" class="img-abash-ti">
+          <div class="fonte-abash-ti">Fonte da imagem (se aplicavél)</div>
+        </div>
+        <div data-ix="none-div-abash-ti" class="div-pai_abash-ti-4 w-clearfix">
+          <div class="tx-abash-ti">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg" class="img-abash-ti">
+          <div class="fonte-abash-ti">Fonte da imagem (se aplicavél)</div>
+        </div>
+        <div data-ix="none-div-abash-ti" class="div-pai_abash-ti-5 w-clearfix">
+          <div class="tx-abash-ti">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg" class="img-abash-ti">
+          <div class="fonte-abash-ti">Fonte da imagem (se aplicavél)</div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <h1 class="titulo-padrao">AbasV - imagem</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-bt-abasv-imagem w-clearfix"><a href="#" data-ix="show-abasv-imagem1" class="botao btn-abasv-imagem w-button">Aba1</a><a href="#" data-ix="show-abasv-imagem-2" class="botao btn-abasv-imagem w-button">Aba2</a><a href="#" data-ix="show-abasv-imagem-3" class="botao btn-abasv-imagem w-button">Aba3</a><a href="#" data-ix="show-abasv-imagem-4" class="botao btn-abasv-imagem w-button">Aba4</a><a href="#" data-ix="show-abasv-imagem-5" class="botao btn-abasv-imagem w-button">Aba5</a></div>
+        <div data-ix="none-abasv-imagem" class="div-box1-abasv-imagem">
+          <div class="titulo-img_abasv-imagem">Título da imagem 1 (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <div class="fonte-img_abasv-imagem">Fonte da imagem (se aplicável)</div>
+        </div>
+        <div data-ix="none-abasv-imagem" class="div-box2-abasv-imagem">
+          <div class="titulo-img_abasv-imagem">Título da imagem 2 (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <div class="fonte-img_abasv-imagem">Fonte da imagem (se aplicável)</div>
+        </div>
+        <div data-ix="none-abasv-imagem" class="div-box3-abasv-imagem">
+          <div class="titulo-img_abasv-imagem">Título da imagem 3 (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <div class="fonte-img_abasv-imagem">Fonte da imagem (se aplicável)</div>
+        </div>
+        <div data-ix="none-abasv-imagem" class="div-box4-abasv-imagem">
+          <div class="titulo-img_abasv-imagem">Título da imagem 4 (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <div class="fonte-img_abasv-imagem">Fonte da imagem (se aplicável)</div>
+        </div>
+        <div data-ix="none-abasv-imagem" class="div-box5-abasv-imagem">
+          <div class="titulo-img_abasv-imagem">Título da imagem 5 (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+          <div class="fonte-img_abasv-imagem">Fonte da imagem (se aplicável)</div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <h1 class="titulo-padrao">AbasV - texto e imagem</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-bt-abasv-imagem w-clearfix"><a href="#" data-ix="show-abasv-ti1" class="botao btn-abasv-ti w-button">Aba1</a><a href="#" data-ix="show-abasv-ti-2" class="botao btn-abasv-ti w-button">Aba2</a><a href="#" data-ix="show-abasv-ti-3" class="botao btn-abasv-ti w-button">Aba3</a><a href="#" data-ix="show-abasv-ti-4" class="botao btn-abasv-ti w-button">Aba4</a><a href="#" data-ix="show-abasv-ti-5" class="botao btn-abasv-ti w-button">Aba5</a></div>
+        <div data-ix="none-abasv-ti" class="div-box1_abasv-ti w-clearfix">
+          <div class="tx-img_abasv-ti"><strong>Imagem1</strong><br>Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.<br>Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.</div>
+          <div class="div-img1_ltti">
+            <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+            <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+          </div>
+        </div>
+        <div data-ix="none-abasv-ti" class="div-box2_abasv-ti w-clearfix">
+          <div class="tx-img_abasv-ti"><strong>Imagem 2</strong><br>Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.</div>
+          <div class="div-img1_ltti">
+            <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+            <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+          </div>
+        </div>
+        <div data-ix="none-abasv-ti" class="div-box3_abasv-ti w-clearfix">
+          <div class="tx-img_abasv-ti"><strong>Imagem 3</strong><br>Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.</div>
+          <div class="div-img1_ltti">
+            <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+            <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+          </div>
+        </div>
+        <div data-ix="none-abasv-ti" class="div-box4_abasv-ti w-clearfix">
+          <div class="tx-img_abasv-ti"><strong>Imagem 4</strong><br>Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.</div>
+          <div class="div-img1_ltti">
+            <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+            <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+          </div>
+        </div>
+        <div data-ix="none-abasv-ti" class="div-box5_abasv-ti w-clearfix">
+          <div class="tx-img_abasv-ti"><strong>Imagem 5</strong><br>Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.</div>
+          <div class="div-img1_ltti">
+            <div class="titulo-img_45-d">Título da imagem (se aplicavél)</div><img src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg">
+            <div class="fonte-45-d">Fonte da imagem (se aplicavél)</div>
+          </div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <h1 class="titulo-padrao">Box Saiba Mais - imagem</h1>
+        <p data-ix="opacidade-scroll" class="tx_bsm-i-45-e">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <p data-ix="opacidade-scroll" class="tx_bsm-i-45-d">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-pai_bsm-ti w-clearfix"><a href="#" data-ix="saiba-mais-imagem-aparecer" class="botao btn-bsm-i w-button">xxxxxxxxxx</a></div>
+        <div data-ix="saiba-mais-imagem-esconder" class="box-bsm-i w-clearfix">
+          <div class="titulo-saiba-mais">xxxxxxxxxx</div><a href="#" class="lightbox_bsm-i w-inline-block w-lightbox"><img src="https://d3e54v103j8qbb.cloudfront.net/img/placeholder-thumb.svg" class="thumb-lightbox_bsm-i"><script type="application/json" class="w-json">{
+  "items": []
+}</script></a>
+          <div class="fonte-box-saiba-mais-img">Fonte da imagem (se aplicavél)</div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <h1 class="titulo-padrao">Box Saiba Mais - texto e imagem</h1>
+        <p data-ix="opacidade-scroll" class="tx_bsm-ti-45-e">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <p data-ix="opacidade-scroll" class="tx_bsm-ti-45-d">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="div-pai_bsm-ti w-clearfix"><a href="#" data-ix="saiba-mais-ti-aparecer" class="botao btn-bsm-ti w-button">xxxxxxxxxx</a></div>
+        <div data-ix="saiba-mais-ti-esconder" class="box-bsm-ti w-clearfix">
+          <div class="titulo-saiba-mais">xxxxxxxxxx</div>
+          <div class="content_bsm-it">
+            <div class="tx-contente_bsm-it">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra.</div><a href="#" class="lightbox-link-2 w-inline-block w-lightbox"><img src="https://d3e54v103j8qbb.cloudfront.net/img/placeholder-thumb.svg" class="img-contente_bsm-it"><script type="application/json" class="w-json">{
+  "items": []
+}</script></a></div>
+          <div class="fonte-saiba-mais-texto-img">Fonte da imagem (se aplicavél)</div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <h1 data-ix="esq-dir-scroll" class="titulo-padrao">Comparativo</h1>
+        <p data-ix="opacidade-scroll" class="tx_comparativo-e">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend bibendum et et ante.</p><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="https://d3e54v103j8qbb.cloudfront.net/img/placeholder-thumb.svg" class="thumb-lightbox_comparativo"><div class="fonte-comparativo">Fonte da imagem (se aplicavél)</div><script type="application/json" class="w-json">{
+  "items": []
+}</script></a>
+        <p data-ix="opacidade-scroll" class="tx_comparativo-d">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend bibendum et et ante.</p>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 data-ix="esq-dir-scroll" class="titulo-padrao">Citação</h1>
+        <div class="citacao">
+          <div class="texto_citacao">BOX - citação | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mi ex, accumsan at nisi quis, finibus interdum tortor. Ut sed consectetur elit, quis convallis turpis. Nam ac condimentum dui, non tincidunt ipsum. Maecenas sagittis dui at dolor blandit porttitor. Quisque eu accumsan enim, ac iaculis lorem. Lorem ipsum dolor sit amet, consectetur. Pell entes que mi ex, accumsan at nisi quis adipiscing elit adipiscing elit.<br>(LOREM, 2000, p. 10)</div>
+          <div class="fonte_citacao">Referência da citação</div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <h1 class="titulo-padrao">Heading</h1>
+        <div class="tx_substituicao"><span data-ix="aparecer-ts-div-span-7" class="tx-span7_ts"><strong>Span7</strong> </span>ipsum dolor sit amet, <span data-ix="aparecer-ts-div-span-6" class="tx-span6_ts"><strong>Span6</strong> </span>adipiscing elit. Integer quis lectus vehicula, consequat nunc accumsan, iaculis diam. <span data-ix="aparecer-ts-div-span-1" class="tx-span1_ts"><strong>Span1</strong> </span>non odio a ligula <span data-ix="aparecer-ts-div-span-5" class="tx-span5_ts"><strong>Span5</strong> </span>volutpat nec non diam. Sed non augue quis libero viverra eleifend. Etiam egestas in tellus ut hendrerit. Quisque feugiat, lorem a venenatis condimentum, arcu magna hendrerit erat, vel <span data-ix="aparecer-ts-div-span-4" class="tx-span4_ts"><strong>Span4</strong> </span>nisi orci et nisi. Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu. Mauris suscipit quam sit amet turpis <span data-ix="aparecer-ts-div-span-2" class="tx-span2_ts"><strong>Span2</strong></span>, at tristique nisl tristique. In hac habitasse platea dictumst. Fusce suscipit egestas orci vel dapibus. Nam tellus <span data-ix="aparecer-ts-div-span-8" class="tx-span8_ts"><strong>Span8</strong></span>, fringilla non orci non, cursus <span data-ix="aparecer-ts-div-span-3" class="tx-span3_ts"><strong>Span3</strong> </span>dui.</div>
+        <div data-ix="esconder-div-span-ts" class="div_span1_ts">
+          <div class="tx_x-ts">X</div>
+          <div class="texto-span_ts"><span class="color-box3-span"><strong>tempor</strong></span><br> Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu. Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.</div>
+        </div>
+        <div data-ix="esconder-div-span-ts" class="div_span2_ts">
+          <div class="tx_x-ts">X</div>
+          <div class="texto-span_ts"><span class="color-box3-span"><strong>tempor</strong></span><br> Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu. Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.</div>
+        </div>
+        <div data-ix="esconder-div-span-ts" class="div_span3_ts">
+          <div class="tx_x-ts">X</div>
+          <div class="texto-span_ts"><span class="color-box3-span"><strong>tempor</strong></span><br> Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu. Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.</div>
+        </div>
+        <div data-ix="esconder-div-span-ts" class="div_span4_ts">
+          <div class="tx_x-ts">X</div>
+          <div class="texto-span_ts"><span class="color-box3-span"><strong>tempor</strong></span><br> Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu. Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.</div>
+        </div>
+        <div data-ix="esconder-div-span-ts" class="div_span5_ts">
+          <div class="tx_x-ts">X</div>
+          <div class="texto-span_ts"><span class="color-box3-span"><strong>tempor</strong></span><br> Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu. Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.</div>
+        </div>
+        <div data-ix="esconder-div-span-ts" class="div_span6_ts">
+          <div class="tx_x-ts">X</div>
+          <div class="texto-span_ts"><span class="color-box3-span"><strong>tempor</strong></span><br> Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu. Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.</div>
+        </div>
+        <div data-ix="esconder-div-span-ts" class="div_span7_ts">
+          <div class="tx_x-ts">X</div>
+          <div class="texto-span_ts"><span class="color-box3-span"><strong>tempor</strong></span><br> Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu. Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.</div>
+        </div>
+        <div data-ix="esconder-div-span-ts" class="div_span8_ts">
+          <div class="tx_x-ts">X</div>
+          <div class="texto-span_ts"><span class="color-box3-span"><strong>tempor</strong></span><br> Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu. Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.Quisque lacinia mauris nisi, ut ullamcorper neque aliquam eu.</div>
+        </div>
+      </div>
+      <div data-ix="box-aviso" class="box-aviso">
+        <div class="texto_celula">Clique nas palavras em destaque e conheça os conceitos.</div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card grafismo-capa-final"><a href="#" class="icon-home w-inline-block"></a>
+      <h4 class="subtitulo_h4"><strong data-ix="scroll-left-right-2">Bons estudos!</strong></h4>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior bt-anterior-branco"></a></div>
+      <div class="fonte-rodape"></div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 data-ix="esq-dir-scroll" class="titulo-padrao">Objetos adicionais</h1>
+        <div class="box_overflow">
+          <div class="linha_tabela w-row">
+            <div class="celula_cor celula_titulo w-col w-col-5 w-col-small-5 w-col-tiny-6">
+              <h2 class="titulo_celula">Tabela</h2>
+            </div>
+            <div class="celula_cor celula_titulo w-col w-col-7 w-col-small-7 w-col-tiny-6">
+              <h2 class="titulo_celula">Tabela</h2>
+            </div>
+          </div>
+          <div class="linha_tabela w-row">
+            <div class="celula_cor w-col w-col-5 w-col-small-5 w-col-tiny-6">
+              <p class="titulo_celula"><strong>Nonononon</strong></p>
+            </div>
+            <div class="celula_tabela-cor1 w-col w-col-7 w-col-small-7 w-col-tiny-6">
+              <p class="texto_celula">Nono nono nono nono nonono nono.</p>
+            </div>
+          </div>
+          <div class="linha_tabela w-row">
+            <div class="celula_cor w-col w-col-5 w-col-small-5 w-col-tiny-6">
+              <p class="titulo_celula"><strong>Non ononon</strong></p>
+            </div>
+            <div class="celula_tabela-cor2 w-col w-col-7 w-col-small-7 w-col-tiny-6">
+              <p class="texto_celula">Nono nono nono nono nonono nono nono nono no nononono nono no nonono o.</p>
+            </div>
+          </div>
+          <div class="linha_tabela w-row">
+            <div class="celula_cor w-col w-col-5 w-col-medium-5 w-col-small-5 w-col-tiny-6">
+              <p class="titulo_celula"><strong>Non ono</strong></p>
+            </div>
+            <div class="celula_tabela-cor1 w-col w-col-7 w-col-medium-7 w-col-small-7 w-col-tiny-6">
+              <p class="texto_celula">Nono nono nono nono nonono nono nono nono no nononono nono no nonono nono nonono nono nono nono no nononono nono no nonono o.</p>
+            </div>
+          </div>
+          <div class="linha_tabela w-row">
+            <div class="celula_cor w-col w-col-5 w-col-small-5 w-col-tiny-6">
+              <p class="titulo_celula"><strong>Nono n nonon</strong></p>
+            </div>
+            <div class="celula_tabela-cor2 w-col w-col-7 w-col-small-7 w-col-tiny-6">
+              <p class="texto_celula">Nono nono nono nono nonono nono nono nono no nononono nono.</p>
+            </div>
+          </div>
+          <div class="linha_tabela w-row">
+            <div class="celula_cor w-col w-col-5 w-col-small-5 w-col-tiny-6">
+              <p class="titulo_celula"><strong>Nonononon nonon</strong></p>
+            </div>
+            <div class="celula_tabela-cor1 w-col w-col-7 w-col-small-7 w-col-tiny-6">
+              <p class="texto_celula">Nono nono nono nono nonono nono nono nono no nononono nono no nono nono nono nonono nono nono nono no nononono nono no nonono o.</p>
+            </div>
+          </div>
+          <div class="linha_tabela w-row">
+            <div class="celula_cor w-col w-col-5 w-col-small-5 w-col-tiny-6">
+              <p class="titulo_celula"><strong>Nono n nonon</strong></p>
+            </div>
+            <div class="celula_tabela-cor2 w-col w-col-7 w-col-small-7 w-col-tiny-6">
+              <p class="texto_celula">Nono nono nono nono nonono nono nono nono no nononono nono.</p>
+            </div>
+          </div>
+        </div>
+        <div class="citacao">
+          <div class="texto_citacao">BOX - citação | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mi ex, accumsan at nisi quis, finibus interdum tortor. Ut sed consectetur elit, quis convallis turpis. Nam ac condimentum dui, non tincidunt ipsum. Maecenas sagittis dui at dolor blandit porttitor. Quisque eu accumsan enim, ac iaculis lorem. Lorem ipsum dolor sit amet, consectetur. Pell entes que mi ex, accumsan at nisi quis adipiscing elit adipiscing elit.<br>(LOREM, 2000, p. 10)</div>
+          <div class="fonte_citacao">Referência da citação</div>
+        </div>
+        <blockquote data-ix="box-destaque" class="destaque">symbol: BOX-destaque</blockquote>
+        <div data-ix="box-crescer" class="box-central---branco">
+          <p class="texto-padrao">BOX-central</p>
+          <p class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</p>
+        </div>
+        <div class="video_youtube">
+          <div style="padding-top:56.17021276595787%" class="w-embed w-video"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fhg1rOoUNEZ8%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dhg1rOoUNEZ8&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fhg1rOoUNEZ8%2Fhqdefault.jpg&key=c4e54deccf4d4ec997a64902e9a30300&type=text%2Fhtml&schema=youtube" scrolling="no" frameborder="0" allowfullscreen=""></iframe></div>
+          <p class="fonte-video">Disponível em: <a target="_blank" href="https://goo.gl/VwtL">https://goo.gl/VwtLPv. Acesso em: 1 jul. 2016.</a></p>
+        </div>
+        <ul class="lista w-list-unstyled">
+          <li data-ix="esq-dir-scroll" class="item_da_lista">É composta por normas que definem e identificam determinada forma econômica;</li>
+          <li data-ix="esq-dir-scroll" class="item_da_lista">Apresenta a matriz que caracteriza a ordem jurídica;</li>
+          <li data-ix="esq-dir-scroll" class="item_da_lista">É um instrumento de governo que enuncia competências e regula processos;</li>
+          <li data-ix="esq-dir-scroll" class="item_da_lista">Define os estatutos relativos à propriedade dos meios de produção, coordenação da atividade econômica e organização do capital e do trabalho.</li>
+          <li data-ix="esq-dir-scroll" class="item_da_lista">É sempre implícita.</li>
+        </ul>
+        <div data-duration-in="300" data-duration-out="100" class="tabs w-tabs">
+          <div class="tab_ordem w-tab-menu">
+            <a data-w-tab="Tab 2" class="tab_normal w--current w-inline-block w-tab-link">
+              <div class="texto_label">Lorem 1</div>
+            </a>
+            <a data-w-tab="Tab 3" class="tab_normal w-inline-block w-tab-link">
+              <div class="texto_label">Lorem 2</div>
+            </a>
+            <a data-w-tab="Tab 1" class="tab_normal w-inline-block w-tab-link">
+              <div class="texto_label">Lorem 3</div>
+            </a>
+            <a data-w-tab="Tab 4" class="tab_normal w-inline-block w-tab-link">
+              <div class="texto_label">Lorem 4</div>
+            </a>
+          </div>
+          <div class="w-tab-content">
+            <div data-w-tab="Tab 2" class="tab_text_active w--tab-active w-tab-pane">
+              <p class="tab_branco texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est lorem, lobortis ac diam ut, convallis sagittis sapien. Vestibulum a arcu in enim iaculis varius. Integer iaculis ante ex, ut tincidunt felis dapibus non. Aenean vel ligula in eros pulvinar rhoncus id eget orci. </p>
+            </div>
+            <div data-w-tab="Tab 3" class="tab_text_active w-tab-pane">
+              <p class="tab_branco texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est lorem, lobortis ac diam ut, convallis sagittis sapien. Vestibulum a arcu in enim iaculis varius. Integer iaculis ante ex, ut tincidunt felis dapibus non. </p>
+            </div>
+            <div data-w-tab="Tab 1" class="tab_text_active w-tab-pane">
+              <p class="tab_branco texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est lorem, lobortis ac diam ut, convallis sagittis sapien. Vestibulum a arcu in enim iaculis varius. Integer iaculis ante ex, ut tincidunt felis dapibus non. Aenean vel ligula in eros pulvinar rhoncus id eget orci.</p>
+            </div>
+            <div data-w-tab="Tab 4" class="tab_text_active w-tab-pane">
+              <p class="tab_branco texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam est lorem, lobortis ac diam ut, convallis sagittis sapien. Vestibulum a arcu in enim iaculis varius. Integer iaculis ante ex, ut tincidunt felis dapibus non. Aenean vel ligula in eros pulvinar rhoncus id eget orci.</p>
+            </div>
+          </div>
+        </div>
+        <div class="div-pai-box-saiba-mais w-clearfix"><a href="#" data-ix="saiba-mais-aparecer" class="botao w-button">Botão Saiba Mais</a>
+          <div data-ix="saiba-mais-esconder" class="box_bsm">
+            <div class="titulo-saiba-mais">SAIBA MAIS</div>
+            <div class="texto-saiba-mais">O diagrama de Venn recebeu esse nome em homenagem ao inglês John Venn (1834-1923), pois ele utilizou esta maneira para representar conjuntos em um artigo de 1876 e em seu livro Symbolic Logic, de 1894.</div>
+          </div>
+        </div>
+        <div data-ix="box-aviso" class="box-aviso">
+          <div class="texto_celula">BOX - AVISO | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lorem nibh, porta in magna quis.</div>
+        </div>
+        <div class="div-pai-clique-apareca w-clearfix"><a href="#" data-ix="clique-apareca-btn" class="botao clica-apareca-obj w-button">Clique e apareça</a>
+          <div data-ix="clique-apareca-apar-inicial" class="box-clique-aparece-obj">
+            <div class="tx-clique-apareca-obj">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum fringilla urna quis laoreet. Vestibulum imperdiet nulla ante, id feugiat ipsum posuere nec.</div>
+          </div>
+        </div>
+        <div class="input-txt w-embed">
+          <table sytle="width: 80%; border:0;" cellpadding="4" cellspacing="0">
+            <td style="font-size:25px; line-height:30px;" width="20%" align="right" valign="top"><strong></strong></td>
+            <td width="100%">
+              <label for="textfield2"></label>
+              <label for="msg"></label>
+              <textarea placeholder="Seu bloco de anotações..." name="msg" id="msg" cols="40" rows="5" maxlength="500" style="font-size:25px; line-height:30px; padding:10px;"></textarea>
+            </td>
+          </table>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape"></div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="alvo-conhece base-card marcador-slide">
+    <div class="card card-saber">
+      <div class="embed_saber w-embed w-iframe"><iframe src="https://cm-kls-content.s3.amazonaws.com/DESEN_WEBAULA/SABER/WEBFLOW/index.html" width="100%" height="100%" scrolling="yes"></iframe></div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape"></div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="alvo-video base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 class="titulo-padrao">Vídeo de encerramento</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+        <div class="embed w-embed"><embed src="colar_link_https" allowfullscreen="" width="100%" height="100%" overflow="hidden" frameborder="0" scrolling="no"></div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape"></div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 data-ix="esq-dir-scroll" class="titulo-padrao">Exemplo de inserção de fórmulas matemáticas</h1>
+        <blockquote data-ix="box-destaque" class="destaque">symbol: BOX-destaque</blockquote>
+        <div class="embed_fomulas_simples w-embed"><math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+ <mrow>
+  <mstyle displaystyle="true">
+   <munderover>
+    <mo>&#x2211;</mo>
+    <mrow>
+     <mi>j</mi><mo>=</mo><mn>1</mn></mrow>
+    <mi>n</mi>
+   </munderover>
+   <mrow>
+    <msub>
+     <mrow>
+      <mo stretchy="false">(</mo><msub>
+       <mrow>
+        <mover>
+         <mi>m</mi>
+         <mo>.</mo>
+        </mover>
+        </mrow>
+       <mi>i</mi>
+      </msub>
+      <mo stretchy="false">)</mo></mrow>
+     <mi>j</mi>
+    </msub>
+    </mrow>
+  </mstyle><mo>&#x2212;</mo><mstyle displaystyle="true">
+   <munderover>
+    <mo>&#x2211;</mo>
+    <mrow>
+     <mi>r</mi><mo>=</mo><mn>1</mn></mrow>
+    <mi>k</mi>
+   </munderover>
+   <mrow>
+    <msub>
+     <mrow>
+      <mo stretchy="false">(</mo><msub>
+       <mrow>
+        <mover>
+         <mi>m</mi>
+         <mo>.</mo>
+        </mover>
+        </mrow>
+       <mi>o</mi>
+      </msub>
+      <mo stretchy="false">)</mo></mrow>
+     <mi>r</mi>
+    </msub>
+    <mo>=</mo><mfrac>
+     <mrow>
+      <mi>d</mi><msub>
+       <mi>m</mi>
+       <mi>s</mi>
+      </msub>
+      </mrow>
+     <mrow>
+      <mi>d</mi><mi>t</mi></mrow>
+    </mfrac>
+    </mrow>
+  </mstyle></mrow>
+</math></div>
+        <blockquote data-ix="box-destaque" class="destaque">symbol: BOX-destaque</blockquote>
+        <div class="embed_formulas_scroll w-embed"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>c</mi></msub><mo>=</mo><mfrac><mrow><mi>m</mi><mo>&#x22C5;</mo><msup><mi>V</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac></math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mrow><mi>p</mi><mi>r</mi><mi>e</mi><mi>s</mi><mi>s</mi><mi>&#xE3;</mi><mi>o</mi></mrow></msub></math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>W</mi><mo>=</mo><msub><mi>E</mi><mrow><mi>p</mi><mi>r</mi><mi>e</mi><mi>s</mi><mi>s</mi><mi>&#xE3;</mi><mi>o</mi></mrow></msub><mo>=</mo><munder><mo>&#x222B;</mo><mi>V</mi></munder><mi>p</mi><mi>d</mi><mi>V</mi></math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mrow><mi>m</mi><mi>e</mi><mi>c</mi><mi>&#xE2;</mi><mi>n</mi><mi>i</mi><mi>c</mi><mi>a</mi></mrow></msub><mo>=</mo><msub><mi>E</mi><mi>p</mi></msub><mo>+</mo><msub><mi>E</mi><mi>c</mi></msub><mo>+</mo><msub><mi>E</mi><mrow><mi>p</mi><mi>r</mi><mi>e</mi><mi>s</mi><mi>s</mi><mi>&#xE3;</mi><mi>o</mi></mrow></msub></math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mrow><mi>m</mi><mi>e</mi><mi>c</mi><mi>&#xE2;</mi><mi>n</mi><mi>i</mi><mi>c</mi><mi>a</mi></mrow></msub><mo>=</mo><mi>m</mi><mo>&#x22C5;</mo><mi>g</mi><mo>&#x22C5;</mo><mi>z</mi><mo>+</mo><mfrac><mrow><mi>m</mi><mo>&#x22C5;</mo><msup><mi>V</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>+</mo><munder><mo>&#x222B;</mo><mi>V</mi></munder><mi>p</mi><mi>d</mi><mi>V</mi></math></div>
+        <blockquote data-ix="box-destaque" class="destaque">symbol: BOX-destaque</blockquote>
+        <div class="embed_formulas_quebra w-embed"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mi>c</mi></msub><mo>=</mo><mfrac><mrow><mi>m</mi><mo>&#x22C5;</mo><msup><mi>V</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac></math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mrow><mi>p</mi><mi>r</mi><mi>e</mi><mi>s</mi><mi>s</mi><mi>&#xE3;</mi><mi>o</mi></mrow></msub></math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>W</mi><mo>=</mo><msub><mi>E</mi><mrow><mi>p</mi><mi>r</mi><mi>e</mi><mi>s</mi><mi>s</mi><mi>&#xE3;</mi><mi>o</mi></mrow></msub><mo>=</mo><munder><mo>&#x222B;</mo><mi>V</mi></munder><mi>p</mi><mi>d</mi><mi>V</mi></math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mrow><mi>m</mi><mi>e</mi><mi>c</mi><mi>&#xE2;</mi><mi>n</mi><mi>i</mi><mi>c</mi><mi>a</mi></mrow></msub><mo>=</mo><msub><mi>E</mi><mi>p</mi></msub><mo>+</mo><msub><mi>E</mi><mi>c</mi></msub><mo>+</mo><msub><mi>E</mi><mrow><mi>p</mi><mi>r</mi><mi>e</mi><mi>s</mi><mi>s</mi><mi>&#xE3;</mi><mi>o</mi></mrow></msub></math>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>E</mi><mrow><mi>m</mi><mi>e</mi><mi>c</mi><mi>&#xE2;</mi><mi>n</mi><mi>i</mi><mi>c</mi><mi>a</mi></mrow></msub><mo>=</mo><mi>m</mi><mo>&#x22C5;</mo><mi>g</mi><mo>&#x22C5;</mo><mi>z</mi><mo>+</mo><mfrac><mrow><mi>m</mi><mo>&#x22C5;</mo><msup><mi>V</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>+</mo><munder><mo>&#x222B;</mo><mi>V</mi></munder><mi>p</mi><mi>d</mi><mi>V</mi></math></div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape"></div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card grafismo-capa-final"><a href="#" class="icon-home w-inline-block"></a>
+      <h4 class="subtitulo_h4"><strong data-ix="scroll-left-right-2">Bons estudos!</strong></h4>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior bt-anterior-branco"></a></div>
+      <div class="fonte-rodape"></div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 data-ix="esq-dir-scroll" class="titulo-padrao">Gostou do Tema</h1>
+        <p class="referencias texto-padrao"><span class="span_ref"><strong><span><span><span>Seção 2.1</span></span>
+          </span>
+          </strong>
+          </span>
+        </p>
+        <a href="https://goo.gl/tZTqlY" target="_blank" class="link_ref w-inline-block">
+          <p class="referencias texto-padrao">NONONONO, Nonono. <strong><span><span class="span_ref">Nonon nono nonon ononono nono</span></span></strong>. EM, 01 janeiro 2016. Política. Disponível em: http//nono.com | Acesso em: 01 jan. 2016.</p>
+        </a>
+        <div class="divisor"></div>
+        <p class="referencias texto-padrao"><span class="span_ref"><strong xmlns="http://www.w3.org/1999/xhtml">Seção 2.2</strong></span></p>
+        <a href="https://goo.gl/T2jcKu" target="_blank" class="link_ref w-inline-block">
+          <p class="referencias texto-padrao">NONONONO, Nonono. <strong><span><span class="span_ref">Nonon nono nonon ononono nono</span></span></strong>. EM, 01 janeiro 2016. Política. Disponível em: http//nono.com | Acesso em: 01 jan. 2016.</p>
+        </a>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape"></div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 data-ix="esq-dir-scroll" class="titulo-padrao">Card Tabela</h1>
+        <div class="box_overflow">
+          <div class="linha_tabela w-row">
+            <div class="celula_cor celula_titulo w-col w-col-5 w-col-small-5 w-col-tiny-6">
+              <h2 class="titulo_celula">Tabela</h2>
+            </div>
+            <div class="celula_cor celula_titulo w-col w-col-7 w-col-small-7 w-col-tiny-6">
+              <h2 class="titulo_celula">Tabela</h2>
+            </div>
+          </div>
+          <div class="linha_tabela w-row">
+            <div class="celula_cor w-col w-col-5 w-col-small-5 w-col-tiny-6">
+              <p class="titulo_celula"><strong>Nono Nono vNono </strong></p>
+            </div>
+            <div class="celula_tabela-cor1 w-col w-col-7 w-col-small-7 w-col-tiny-6">
+              <p class="texto_celula">Nono nono nono nono nonono nono.</p>
+            </div>
+          </div>
+          <div class="linha_tabela w-row">
+            <div class="celula_cor w-col w-col-5 w-col-small-5 w-col-tiny-6">
+              <p class="titulo_celula"><strong>Non ononon</strong></p>
+            </div>
+            <div class="celula_tabela-cor2 w-col w-col-7 w-col-small-7 w-col-tiny-6">
+              <p class="texto_celula">Nono nono nono nono nonono nono nono nono no nononono nono no nonono o.</p>
+            </div>
+          </div>
+          <div class="linha_tabela w-row">
+            <div class="celula_cor w-col w-col-5 w-col-medium-5 w-col-small-5 w-col-tiny-6">
+              <p class="titulo_celula"><strong>Non ono</strong></p>
+            </div>
+            <div class="celula_tabela-cor1 w-col w-col-7 w-col-medium-7 w-col-small-7 w-col-tiny-6">
+              <p class="texto_celula">Nono nono nono nono nonono nono nono nono no nononono nono no nonono nono nonono nono nono nono no nononono nono no nonono o.</p>
+            </div>
+          </div>
+          <div class="linha_tabela w-row">
+            <div class="celula_cor w-col w-col-5 w-col-small-5 w-col-tiny-6">
+              <p class="titulo_celula"><strong>Nono n nonon</strong></p>
+            </div>
+            <div class="celula_tabela-cor2 w-col w-col-7 w-col-small-7 w-col-tiny-6">
+              <p class="texto_celula">Nono nono nono nono nonono nono nono nono no nononono nono.</p>
+            </div>
+          </div>
+          <div class="linha_tabela w-row">
+            <div class="celula_cor w-col w-col-5 w-col-small-5 w-col-tiny-6">
+              <p class="titulo_celula"><strong>Nonononon nonon</strong></p>
+            </div>
+            <div class="celula_tabela-cor1 w-col w-col-7 w-col-small-7 w-col-tiny-6">
+              <p class="texto_celula">Nono nono nono nono nonono nono nono nono no nononono nono no nono nono nono nonono nono nono nono no nononono nono no nonono o.</p>
+            </div>
+          </div>
+          <div class="linha_tabela w-row">
+            <div class="celula_cor w-col w-col-5 w-col-small-5 w-col-tiny-6">
+              <p class="titulo_celula"><strong>Nono n nonon</strong></p>
+            </div>
+            <div class="celula_tabela-cor2 w-col w-col-7 w-col-small-7 w-col-tiny-6">
+              <p class="texto_celula">Nono nono nono nono nonono nono nono nono no nononono nono.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape"></div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card card_flex">
+      <div class="conteudo">
+        <div data-ix="box-crescer" class="box-central---branco">
+          <p class="texto-padrao">CARD | bg+tx centro<br>Pela regra do interesse social, o Direito Econômico deve atender a todos os componentes da sociedade, preocupando-se, também, com os efeitos econômicos das normas.</p>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <div data-ix="dir-esq-out-back-scroll" class="box-direito">
+          <h1 class="titulo-padrao">CARD | bg+tx direito</h1>
+          <p class="oi">Nono nono nono nono nonono nono nono nono no nononono nono no nonono. Nono nono nono nono nonono nono nono nono no nononono nono no nonono.</p>
+          <p class="oi">Nono nono nono nono nonono nono nono nono no no. Nono nono nono nono nonono nono nono nono no nononono nono no nonono. Nono nono nono nono nonono nono nono nono no nononono nono no nonono.</p>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card">
+    <div class="card">
+      <div class="conteudo">
+        <div data-ix="esq-dir-out-back-scroll" class="box-esquerdo">
+          <h1 class="titulo-padrao">CARD | bg+tx esquerdo</h1>
+          <p class="texto-padrao">Nono nono nono nono nonono nono nono nono no nononono nono no nonono. Nono nono nono nono nonono nono nono nono no nononono nono no nonono.</p>
+          <p class="texto-padrao">Nono nono nono nono nonono nono nono nono no no. Nono nono nono nono nonono nono nono nono no nononono nono no nonono. Nono nono nono nono nonono nono nono nono no nononono nono no nonono.</p>
+        </div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card">
+    <div class="card">
+      <div data-ix="de-cima-scroll" class="box-img-topo"></div>
+      <div class="conteudo">
+        <h1 class="titulo-padrao">CARD | img topo</h1>
+        <p class="_2-colunas">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut leo nunc, vehicula nec mauris nec, varius placerat orci. Sed bibendum, felis ac vehicula Aenean commodo diam in massa interdum, ac dictum urna venenatis. Nullam varius justo id orci pharetra, eget molestie felis vehicula. Donec id iaculis nulla.</p>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card">
+    <div class="card">
+      <div class="conteudo w-clearfix">
+        <div data-ix="opacidade-scroll" class="_w-45porcento box-esquerdo">
+          <h1 class="titulo-padrao">CARD | img direita</h1>
+          <p class="texto-padrao">Nono nono nono nono nonono nono nono nono no nononono nono no nonono. Nono nono nono nono nonono nono nono nono no nononono nono no nonono.</p>
+          <p class="texto-padrao">Nono nono nono nono nonono nono nono nono no no. Nono nono nono nono nonono nono nono nono no nononono nono no nonono. Nono nono nono nono nonono nono nono nono no nononono nono no nonono.</p>
+        </div>
+        <div class="box-img-dir"></div>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <div id="data-navegacao" class="base-card marcador-slide">
+    <div class="card">
+      <div class="conteudo">
+        <h1 data-ix="esq-dir-scroll" class="titulo-padrao">Card Simples</h1>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae risus orci. Nulla ornare consectetur tincidunt. Proin in eros a tortor cursus tempus. Cras a faucibus enim, at venenatis lectus. Suspendisse in velit ut mi rhoncus congue sit amet vel libero. Nunc a sapien ac risus placerat efficitur. In non orci et orci eleifend bibendum et et ante.</p>
+        <p data-ix="opacidade-scroll" class="texto-padrao">Nulla et magna sed eros consequat ornare. Vestibulum luctus luctus neque sit amet tristique. Suspendisse aliquet lacus vel eleifend posuere. Nunc sed metus a arcu condimentum viverra. </p>
+      </div>
+      <div id="navegacao" class="div-block-2"><a href="#setaParaCima" class="bt-anterior"></a></div>
+      <div id="navegacao" class="div-block"><a href="#setaParaBaixo" class="bt-proximo"></a></div>
+      <div class="fonte-rodape">
+        <div class="fonte-rodape-black fonte-rodape-white">iStock 2018</div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+  <script src="js/out-all-css.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <!--  js  -->
+  <script src="https://cm-kls-content.s3.amazonaws.com/DESEN_WEBAULA/WEBFLOW/javascript/funcoes.js"></script>
+  <!--  js  -->
+  <!--  js  -->
+  <script src="https://cm-kls-content.s3.amazonaws.com/DESEN_WEBAULA/WEBFLOW/javascript/javascript_pdf_pasta.js"></script>
+  <!--  js -->
+</body>
+</html>

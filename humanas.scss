@@ -5,9 +5,10 @@ $cor1:#ad393a;
 $cor2:#ea5c63;
 $cor3:#34495e;
 $cor4:#7892a3;
-$cor5:#333;;
+$cor5:#333;
 $cor6:#e27a3f;
 $cor7:#efc94c;
+$cor8:white;
 //Variaveis de cores//
 
 //Public Class//
@@ -843,3 +844,46 @@ canvas {
     margin: auto;
 }
 //QR Code//
+
+//PNGs do Grafismo Externos//
+.fundo-pagina {
+  background-image: url('assets-graphics/humanas/body-pg.png');  
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start; 
+  background-position: 50% -221px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.45;
+}
+
+.grafismo-capa {
+    background-image: url('assets-graphics/humanas/capa.png');
+}
+
+.card.grafismo-subcapa {
+    background-image: url('assets-graphics/humanas/capa-destaque.png'), -webkit-linear-gradient(270deg, $cor7, $cor7);
+    background-image: url('assets-graphics/humanas/capa-destaque.png'), linear-gradient(180deg, $cor7, $cor7);
+}
+
+.card.grafismo-paginas {
+  background-image: url('assets-graphics/humanas/grafismo-pg.png'), -webkit-linear-gradient(270deg, $cor8, $cor8);
+  background-image: url('assets-graphics/humanas/grafismo-pg.png'), linear-gradient(180deg, $cor8, $cor8);
+}
+
+.card.grafismo-capa-final {
+  background-image: url('assets-graphics/humanas/grafismo-bg.png'), -webkit-linear-gradient(270deg, $cor7, $cor7);
+  background-image: url('assets-graphics/humanas/grafismo-bg.png'), linear-gradient(180deg, $cor7, $cor7);
+}
+//PNGs do Grafismo Externos//

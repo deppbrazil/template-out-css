@@ -1,6 +1,5 @@
 //Paleta de Cores 
 
-
 Humanas {
 #ad393a
 #ea5c63

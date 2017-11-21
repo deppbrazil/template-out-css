@@ -607,4 +607,40 @@ canvas {
   height: auto;
   margin: auto; }
 
+.fundo-pagina {
+  background-image: url("assets-graphics/biologicas/body-pg.png");
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-position: 100% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.45; }
+
+.grafismo-capa {
+  background-image: url("assets-graphics/biologicas/capa.png"); }
+
+.card.grafismo-subcapa {
+  background-image: url("assets-graphics/biologicas/capa-destaque.png"), -webkit-linear-gradient(270deg, #c6e729, #c6e729);
+  background-image: url("assets-graphics/biologicas/capa-destaque.png"), linear-gradient(180deg, #c6e729, #c6e729); }
+
+.card.grafismo-paginas {
+  background-image: url("assets-graphics/biologicas/grafismo-pg.png"), -webkit-linear-gradient(270deg, white, white);
+  background-image: url("assets-graphics/biologicas/grafismo-pg.png"), linear-gradient(180deg, white, white); }
+
+.card.grafismo-capa-final {
+  background-image: url("assets-graphics/biologicas/grafismo-bg.png"), -webkit-linear-gradient(270deg, #83d85a, #83d85a);
+  background-image: url("assets-graphics/biologicas/grafismo-bg.png"), linear-gradient(180deg, #83d85a, #83d85a); }
+
 /*# sourceMappingURL=biologicas.css.map */

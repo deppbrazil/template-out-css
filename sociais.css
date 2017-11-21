@@ -607,4 +607,40 @@ canvas {
   height: auto;
   margin: auto; }
 
+.fundo-pagina {
+  background-image: url("assets-graphics/sociais/body-pg.png");
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-position: 50% 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  opacity: 0.45; }
+
+.grafismo-capa {
+  background-image: url("assets-graphics/sociais/capa.png"); }
+
+.card.grafismo-subcapa {
+  background-image: url("assets-graphics/sociais/capa-destaque.png"), -webkit-linear-gradient(270deg, #a38bce, #a38bce);
+  background-image: url("assets-graphics/sociais/capa-destaque.png"), linear-gradient(180deg, #a38bce, #a38bce); }
+
+.card.grafismo-paginas {
+  background-image: url("assets-graphics/sociais/grafismo-pg.png"), -webkit-linear-gradient(270deg, white, white);
+  background-image: url("assets-graphics/sociais/grafismo-pg.png"), linear-gradient(180deg, white, white); }
+
+.card.grafismo-capa-final {
+  background-image: url("assets-graphics/sociais/grafismo-bg.png"), -webkit-linear-gradient(270deg, #f8b134, #f8b134);
+  background-image: url("assets-graphics/sociais/grafismo-bg.png"), linear-gradient(180deg, #f8b134, #f8b134); }
+
 /*# sourceMappingURL=sociais.css.map */

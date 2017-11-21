@@ -607,4 +607,40 @@ canvas {
   height: auto;
   margin: auto; }
 
+.fundo-pagina {
+  background-image: url("assets-graphics/humanas/body-pg.png");
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-position: 50% -221px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.45; }
+
+.grafismo-capa {
+  background-image: url("assets-graphics/humanas/capa.png"); }
+
+.card.grafismo-subcapa {
+  background-image: url("assets-graphics/humanas/capa-destaque.png"), -webkit-linear-gradient(270deg, #efc94c, #efc94c);
+  background-image: url("assets-graphics/humanas/capa-destaque.png"), linear-gradient(180deg, #efc94c, #efc94c); }
+
+.card.grafismo-paginas {
+  background-image: url("assets-graphics/humanas/grafismo-pg.png"), -webkit-linear-gradient(270deg, white, white);
+  background-image: url("assets-graphics/humanas/grafismo-pg.png"), linear-gradient(180deg, white, white); }
+
+.card.grafismo-capa-final {
+  background-image: url("assets-graphics/humanas/grafismo-bg.png"), -webkit-linear-gradient(270deg, #efc94c, #efc94c);
+  background-image: url("assets-graphics/humanas/grafismo-bg.png"), linear-gradient(180deg, #efc94c, #efc94c); }
+
 /*# sourceMappingURL=humanas.css.map */

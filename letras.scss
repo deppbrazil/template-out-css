@@ -8,6 +8,7 @@ $cor4:#9c87b2;
 $cor5:#333;
 $cor6:#f7ae22;
 $cor7:#f49382;
+$cor8:white;
 //Variaveis de cores//
 
 //Public Class//
@@ -843,3 +844,46 @@ canvas {
     margin: auto;
 }
 //QR Code//
+
+//PNGs do Grafismo Externos//
+.fundo-pagina {
+  background-image: url('assets-graphics/letras/body-pg.png');
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-position: 110% 50%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  opacity: 0.45;
+}
+
+.grafismo-capa {
+    background-image: url('assets-graphics/letras/capa.png');
+}
+
+.card.grafismo-subcapa {
+    background-image: url('assets-graphics/letras/capa-destaque.png'), -webkit-linear-gradient(270deg, $cor2, $cor2);
+    background-image: url('assets-graphics/letras/capa-destaque.png'), linear-gradient(180deg, $cor2, $cor2);
+}
+
+.card.grafismo-paginas {
+  background-image: url('assets-graphics/letras/grafismo-pg.png'), -webkit-linear-gradient(270deg, $cor8, $cor8);
+  background-image: url('assets-graphics/letras/grafismo-pg.png'), linear-gradient(180deg, $cor8, $cor8);
+}
+
+.card.grafismo-capa-final {
+  background-image: url('assets-graphics/letras/grafismo-bg.png'), -webkit-linear-gradient(270deg, $cor2, $cor2);
+  background-image: url('assets-graphics/letras/grafismo-bg.png'), linear-gradient(180deg, $cor2, $cor2);
+}
+//PNGs do Grafismo Externos//
