@@ -5,7 +5,7 @@ ___
 
 ### Áreas ###
 
-* [Humanas] (https://bitbucket.org/krotoneducacional/out-css/src/f9a3aa97db8357e04091a1ecd64bba4d095ec28e/humanas.css?at=master) 
+* [Humanas](https://bitbucket.org/krotoneducacional/out-css/src/f9a3aa97db8357e04091a1ecd64bba4d095ec28e/humanas.css?at=master) 
 * Exatas
 * Biologicas 
 * Letras
