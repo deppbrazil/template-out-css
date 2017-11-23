@@ -1,6 +1,5 @@
 # CSS Externo com SASS #
 
-Versões 3
 ___
 
 ### Áreas ###
