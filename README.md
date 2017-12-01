@@ -1,5 +1,4 @@
 # CSS Externo com SASS #
-
 ___
 
 ### Áreas ###
@@ -10,10 +9,13 @@ ___
 * [Letras](https://bitbucket.org/krotoneducacional/out-css/src/fd53e986feb26df811b63a64b2e7a52dbc4a06b3/letras.css?at=master&fileviewer=file-view-default)
 * [Sociais](https://bitbucket.org/krotoneducacional/out-css/src/fd53e986feb26df811b63a64b2e7a52dbc4a06b3/sociais.css?at=master&fileviewer=file-view-default)
 * [Agrarias](https://bitbucket.org/krotoneducacional/out-css/src/fd53e986feb26df811b63a64b2e7a52dbc4a06b3/agrarias.css?at=master&fileviewer=file-view-default) 
-
 ___ 
 
 ### TAGS ###
 * v1.0.0
 * v2.0.0
 * v3.0.0
+___ 
+### REMOTES ###
+* private [Bitbucket](https://bitbucket.org/krotoneducacional/out-css/overview)
+* public [Github](https://github.com/deppbrazil/template-out-css)
